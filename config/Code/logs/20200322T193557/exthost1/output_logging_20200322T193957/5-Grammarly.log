@@ -1,0 +1,896 @@
+2020-03-22T18:39:57.903Z grammarly:server Server Ready.
+2020-03-22T18:43:08.739Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T18:43:08.741Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt',
+  account: 'public'
+}
+2020-03-22T18:43:08.759Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T18:43:08.759Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt',
+  account: 'public'
+}
+2020-03-22T18:43:08.761Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+  },
+  diagnostics: []
+}
+2020-03-22T18:43:09.136Z grammarly:auth initial cookie [
+  'grauth=AABHpz3JM4_B1bgzpOJ-yjA6P2r32w2Csz0vcxTcFqJ-sI1z0Vy6sXN2sLB8_ceN27VbU6iFDbBeXrW3; Expires=Mon, 22 Mar 2021 17:43:07 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHpxS1ncecGg7y7L1UbNU4vMPLEwDkkuCjwA; Expires=Mon, 22 Mar 2021 17:43:07 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=zicra8j8mcr8fg2; Expires=Wed, 20 Mar 2030 17:43:07 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T18:43:09.144Z grammarly:auth initial cookie [
+  'grauth=AABHp4ktIr-ZK3Ke9AFxOuAhtiXAS76ltIycVPE3xrm9kN_wxmqN52w5zZZZeS1N4ZQYUTZfUo73VKS0; Expires=Mon, 22 Mar 2021 17:43:07 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHp7KqVB3XBYhy0DWs06SjQNppceSXoYnbKg; Expires=Mon, 22 Mar 2021 17:43:07 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=wnsqa8j8mcroco5; Expires=Wed, 20 Mar 2030 17:43:07 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T18:43:09.487Z grammarly:auth can continue as anonymous user
+2020-03-22T18:43:09.496Z grammarly:auth can continue as anonymous user
+2020-03-22T18:43:09.832Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0Rvd25sb2Fkcy9GYXN0TWFyY2hpbmdfSW5pdGlhbC9DTWFrZUxpc3RzLnR4dA==',
+  id: 0
+}
+2020-03-22T18:43:09.840Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0Rvd25sb2Fkcy9GYXN0TWFyY2hpbmdfSW5pdGlhbC9DTWFrZUxpc3RzLnR4dA==',
+  id: 0
+}
+2020-03-22T18:43:09.935Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T18:43:09.935Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T18:43:09.936Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'zicra8j8mcr8fg2',
+  id: 2
+}
+2020-03-22T18:43:09.939Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T18:43:09.940Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T18:43:09.940Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'wnsqa8j8mcroco5',
+  id: 2
+}
+2020-03-22T18:43:10.046Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-22T18:43:10.046Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-22T18:43:10.052Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 53,
+  charsCount: 1063,
+  readabilityScore: -2,
+  action: 'text_info',
+  id: 0
+}
+2020-03-22T18:43:10.052Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-22T18:43:10.052Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-22T18:43:10.057Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 53,
+  charsCount: 1063,
+  readabilityScore: -2,
+  action: 'text_info',
+  id: 0
+}
+2020-03-22T18:43:10.058Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'Formatting',
+  pid: 1128918,
+  rid: 1128918,
+  sid: 78554,
+  begin: 147,
+  end: 151,
+  text: 'list',
+  group: 'Style',
+  pname: 'Style/Formatting/LowerCaseSentenceStart/LowercaseSentenceStart',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 147,
+  highlightEnd: 151,
+  highlightText: 'list',
+  replacements: [],
+  transformJson: { context: { s: 147, e: 158 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Conventions',
+    groupDescription: 'Checks spacing, capitalization, and dialect-specific spelling',
+    rank: 50,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Improper Formatting',
+  cost: 1,
+  action: 'alert',
+  id: 32
+}
+2020-03-22T18:43:10.058Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '32', id: 3 }
+2020-03-22T18:43:10.063Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'Formatting',
+  pid: 1128918,
+  rid: 1128918,
+  sid: 507500,
+  begin: 147,
+  end: 151,
+  text: 'list',
+  group: 'Style',
+  pname: 'Style/Formatting/LowerCaseSentenceStart/LowercaseSentenceStart',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 147,
+  highlightEnd: 151,
+  highlightText: 'list',
+  replacements: [],
+  transformJson: { context: { s: 147, e: 158 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Conventions',
+    groupDescription: 'Checks spacing, capitalization, and dialect-specific spelling',
+    rank: 50,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Improper Formatting',
+  cost: 1,
+  action: 'alert',
+  id: 32
+}
+2020-03-22T18:43:10.064Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '32', id: 3 }
+2020-03-22T18:43:10.140Z grammarly:host 🔻 { action: 'remove', id: 32 }
+2020-03-22T18:43:10.141Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-22T18:43:10.145Z grammarly:host 🔻 { action: 'remove', id: 32 }
+2020-03-22T18:43:10.145Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-22T18:43:14.058Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  score: 100,
+  outcomeScores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  generalScore: 100,
+  removed: [],
+  dialect: 'american',
+  foreign: false,
+  action: 'finished'
+}
+2020-03-22T18:43:14.066Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  score: 100,
+  outcomeScores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  generalScore: 100,
+  removed: [],
+  dialect: 'american',
+  foreign: false,
+  action: 'finished'
+}
+2020-03-22T18:43:26.397Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+  },
+  diagnostics: []
+}
+2020-03-22T18:43:29.897Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+  },
+  diagnostics: [
+    {
+      range: [Object],
+      message: 'By not providing "FindImagine.cmake" in CMAKE_MODULE_PATH this project has\n' +
+        'asked CMake to find a package configuration file provided by "Imagine", but\n' +
+        'CMake did not find one.\n' +
+        '\n' +
+        'Could not find a package configuration file provided by "Imagine" with any\n' +
+        'of the following names:\n' +
+        '\n' +
+        '  ImagineConfig.cmake\n' +
+        '  imagine-config.cmake\n' +
+        '\n' +
+        'Add the installation prefix of "Imagine" to CMAKE_PREFIX_PATH or set\n' +
+        '"Imagine_DIR" to a directory containing one of the above files.  If\n' +
+        '"Imagine" provides a separate development package or SDK, be sure it has\n' +
+        'been installed.',
+      severity: 1,
+      relatedInformation: [],
+      source: 'CMake (find_package)'
+    }
+  ]
+}
+Error: DocumentNotFound
+    at new DocumentNotFoundException (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33645:28)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33658:19
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at getTextDocument (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33652:12)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33956:42
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23) {
+  uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+}
+2020-03-22T18:44:22.302Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T18:44:22.302Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt',
+  account: 'public'
+}
+2020-03-22T18:44:22.305Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T18:44:22.305Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt',
+  account: 'public'
+}
+2020-03-22T18:44:22.307Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+  },
+  diagnostics: []
+}
+2020-03-22T18:44:22.516Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+  },
+  diagnostics: [
+    {
+      range: [Object],
+      message: 'By not providing "FindImagine.cmake" in CMAKE_MODULE_PATH this project has\n' +
+        'asked CMake to find a package configuration file provided by "Imagine", but\n' +
+        'CMake did not find one.\n' +
+        '\n' +
+        'Could not find a package configuration file provided by "Imagine" with any\n' +
+        'of the following names:\n' +
+        '\n' +
+        '  ImagineConfig.cmake\n' +
+        '  imagine-config.cmake\n' +
+        '\n' +
+        'Add the installation prefix of "Imagine" to CMAKE_PREFIX_PATH or set\n' +
+        '"Imagine_DIR" to a directory containing one of the above files.  If\n' +
+        '"Imagine" provides a separate development package or SDK, be sure it has\n' +
+        'been installed.',
+      severity: 1,
+      relatedInformation: [],
+      source: 'CMake (find_package)'
+    }
+  ]
+}
+2020-03-22T18:44:22.683Z grammarly:auth initial cookie [
+  'grauth=AABHp5SEmI96kUCSZFbC5VatUtinboBnTtuciFfjKXxDjgMuKEstX2f8xyXUCcH-ih_8c3ZcuS6MeIbw; Expires=Mon, 22 Mar 2021 17:44:21 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHpw2aKwwaWukDYojx69Lc/N/SbhEnEn5frQ; Expires=Mon, 22 Mar 2021 17:44:21 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=tvdda8j8qsg2fo2; Expires=Wed, 20 Mar 2030 17:44:21 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T18:44:22.720Z grammarly:auth initial cookie [
+  'grauth=AABHp51ZRmYR97684YhQcl9XNtDMMAnEmufidFYH02MgUCIYpWyatzAvYIN44B9Y0qem3hQUmA7gsh8g; Expires=Mon, 22 Mar 2021 17:44:21 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHpz5C6cKehEWruhXQN19pqPBpP7K7JlYzcg; Expires=Mon, 22 Mar 2021 17:44:21 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=lxixa8j8qsi6e02; Expires=Wed, 20 Mar 2030 17:44:21 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T18:44:22.972Z grammarly:auth can continue as anonymous user
+2020-03-22T18:44:23.033Z grammarly:auth can continue as anonymous user
+2020-03-22T18:44:23.308Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0Rvd25sb2Fkcy9GYXN0TWFyY2hpbmdfSW5pdGlhbC9DTWFrZUxpc3RzLnR4dA==',
+  id: 0
+}
+2020-03-22T18:44:23.369Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0Rvd25sb2Fkcy9GYXN0TWFyY2hpbmdfSW5pdGlhbC9DTWFrZUxpc3RzLnR4dA==',
+  id: 0
+}
+2020-03-22T18:44:23.409Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T18:44:23.409Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T18:44:23.409Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'lxixa8j8qsi6e02',
+  id: 2
+}
+2020-03-22T18:44:23.466Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T18:44:23.466Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T18:44:23.467Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'tvdda8j8qsg2fo2',
+  id: 2
+}
+2020-03-22T18:44:23.523Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-22T18:44:23.524Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-22T18:44:23.530Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 53,
+  charsCount: 1063,
+  readabilityScore: -2,
+  action: 'text_info',
+  id: 0
+}
+2020-03-22T18:44:23.537Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'Formatting',
+  pid: 1128918,
+  rid: 1128918,
+  sid: 602858,
+  begin: 147,
+  end: 151,
+  text: 'list',
+  group: 'Style',
+  pname: 'Style/Formatting/LowerCaseSentenceStart/LowercaseSentenceStart',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 147,
+  highlightEnd: 151,
+  highlightText: 'list',
+  replacements: [],
+  transformJson: { context: { s: 147, e: 158 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Conventions',
+    groupDescription: 'Checks spacing, capitalization, and dialect-specific spelling',
+    rank: 50,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Improper Formatting',
+  cost: 1,
+  action: 'alert',
+  id: 32
+}
+2020-03-22T18:44:23.537Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '32', id: 3 }
+2020-03-22T18:44:23.581Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-22T18:44:23.582Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-22T18:44:23.588Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 53,
+  charsCount: 1063,
+  readabilityScore: -2,
+  action: 'text_info',
+  id: 0
+}
+2020-03-22T18:44:23.596Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'Formatting',
+  pid: 1128918,
+  rid: 1128918,
+  sid: 593941,
+  begin: 147,
+  end: 151,
+  text: 'list',
+  group: 'Style',
+  pname: 'Style/Formatting/LowerCaseSentenceStart/LowercaseSentenceStart',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 147,
+  highlightEnd: 151,
+  highlightText: 'list',
+  replacements: [],
+  transformJson: { context: { s: 147, e: 158 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Conventions',
+    groupDescription: 'Checks spacing, capitalization, and dialect-specific spelling',
+    rank: 50,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Improper Formatting',
+  cost: 1,
+  action: 'alert',
+  id: 32
+}
+2020-03-22T18:44:23.596Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '32', id: 3 }
+2020-03-22T18:44:23.619Z grammarly:host 🔻 { action: 'remove', id: 32 }
+2020-03-22T18:44:23.619Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-22T18:44:23.679Z grammarly:host 🔻 { action: 'remove', id: 32 }
+2020-03-22T18:44:23.679Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-22T18:44:23.760Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+  },
+  diagnostics: [
+    {
+      range: [Object],
+      message: 'By not providing "FindImagine.cmake" in CMAKE_MODULE_PATH this project has\n' +
+        'asked CMake to find a package configuration file provided by "Imagine", but\n' +
+        'CMake did not find one.\n' +
+        '\n' +
+        'Could not find a package configuration file provided by "Imagine" with any\n' +
+        'of the following names:\n' +
+        '\n' +
+        '  ImagineConfig.cmake\n' +
+        '  imagine-config.cmake\n' +
+        '\n' +
+        'Add the installation prefix of "Imagine" to CMAKE_PREFIX_PATH or set\n' +
+        '"Imagine_DIR" to a directory containing one of the above files.  If\n' +
+        '"Imagine" provides a separate development package or SDK, be sure it has\n' +
+        'been installed.',
+      severity: 1,
+      relatedInformation: [],
+      source: 'CMake (find_package)'
+    }
+  ]
+}
+2020-03-22T18:44:24.683Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+  },
+  diagnostics: [
+    {
+      range: [Object],
+      message: 'By not providing "FindImagine.cmake" in CMAKE_MODULE_PATH this project has\n' +
+        'asked CMake to find a package configuration file provided by "Imagine", but\n' +
+        'CMake did not find one.\n' +
+        '\n' +
+        'Could not find a package configuration file provided by "Imagine" with any\n' +
+        'of the following names:\n' +
+        '\n' +
+        '  ImagineConfig.cmake\n' +
+        '  imagine-config.cmake\n' +
+        '\n' +
+        'Add the installation prefix of "Imagine" to CMAKE_PREFIX_PATH or set\n' +
+        '"Imagine_DIR" to a directory containing one of the above files.  If\n' +
+        '"Imagine" provides a separate development package or SDK, be sure it has\n' +
+        'been installed.',
+      severity: 1,
+      relatedInformation: [],
+      source: 'CMake (find_package)'
+    }
+  ]
+}
+2020-03-22T18:44:27.537Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  score: 100,
+  outcomeScores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  generalScore: 100,
+  removed: [],
+  dialect: 'american',
+  foreign: false,
+  action: 'finished'
+}
+2020-03-22T18:44:27.595Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  score: 100,
+  outcomeScores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  generalScore: 100,
+  removed: [],
+  dialect: 'american',
+  foreign: false,
+  action: 'finished'
+}
+2020-03-22T18:44:48.412Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Initial/CMakeLists.txt'
+  },
+  diagnostics: [
+    {
+      range: [Object],
+      message: 'By not providing "FindImagine.cmake" in CMAKE_MODULE_PATH this project has\n' +
+        'asked CMake to find a package configuration file provided by "Imagine", but\n' +
+        'CMake did not find one.\n' +
+        '\n' +
+        'Could not find a package configuration file provided by "Imagine" with any\n' +
+        'of the following names:\n' +
+        '\n' +
+        '  ImagineConfig.cmake\n' +
+        '  imagine-config.cmake\n' +
+        '\n' +
+        'Add the installation prefix of "Imagine" to CMAKE_PREFIX_PATH or set\n' +
+        '"Imagine_DIR" to a directory containing one of the above files.  If\n' +
+        '"Imagine" provides a separate development package or SDK, be sure it has\n' +
+        'been installed.',
+      severity: 1,
+      relatedInformation: [],
+      source: 'CMake (find_package)'
+    }
+  ]
+}
+2020-03-22T19:08:28.015Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T19:08:28.015Z grammarly:host { type: 'INIT', documentId: 'untitled:Untitled-1', account: 'public' }
+2020-03-22T19:08:28.016Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T19:08:28.016Z grammarly:host { type: 'INIT', documentId: 'untitled:Untitled-1', account: 'public' }
+2020-03-22T19:08:28.665Z grammarly:auth initial cookie [
+  'grauth=AABHp4FB_xobtBuFCBWx4CuBn8dG6LSlNMkfA36Q7F_-eoVthGKT-h2Ogc7A5Vrb7ZFgwI0_beQgoLac; Expires=Mon, 22 Mar 2021 18:08:26 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHpxQlBr3EQeW/Ttzk5cDe588coY0jQxn2Ng; Expires=Mon, 22 Mar 2021 18:08:26 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=fbhca8jbj4d0dg2; Expires=Wed, 20 Mar 2030 18:08:26 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T19:08:28.842Z grammarly:auth initial cookie [
+  'grauth=AABHp6VEs2JQQXBEwXgfeGG0d-MuThOXJgXNLiBI4FAqUcdpD2l2w3olxdE7Qih2BbkxS5nD2QIUnwkg; Expires=Mon, 22 Mar 2021 18:08:27 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHp30XGWzm1hMoRGerr1Dr2+IylA70igghKw; Expires=Mon, 22 Mar 2021 18:08:27 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=krkya8jbj4p6082; Expires=Wed, 20 Mar 2030 18:08:27 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T19:08:29.276Z grammarly:auth can continue as anonymous user
+2020-03-22T19:08:29.614Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'dW50aXRsZWQ6VW50aXRsZWQtMQ==',
+  id: 0
+}
+2020-03-22T19:08:29.657Z grammarly:auth can continue as anonymous user
+2020-03-22T19:08:29.715Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T19:08:29.715Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T19:08:29.715Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'fbhca8jbj4d0dg2',
+  id: 2
+}
+2020-03-22T19:08:29.990Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'dW50aXRsZWQ6VW50aXRsZWQtMQ==',
+  id: 0
+}
+2020-03-22T19:08:30.097Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T19:08:30.097Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T19:08:30.097Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'krkya8jbj4p6082',
+  id: 2
+}
+2020-03-22T19:08:33.486Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 1,
+  deltas: [ { ops: [Array] } ],
+  id: 3
+}

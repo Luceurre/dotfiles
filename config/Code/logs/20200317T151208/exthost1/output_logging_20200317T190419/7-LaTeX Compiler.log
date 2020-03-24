@@ -1,0 +1,2240 @@
+ReadyLatexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:1: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage[utf8]{
+                      inputenc}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:2: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage[T1]{
+                    fontenc}
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux)
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:4: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{document}
+                    
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:5: Undefined control sequence.
+l.5     \section
+                {GPU Programmationfill(1.0, length(speedup))}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:6: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{document}
+                  \section{GPU Programmation}
+[1] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 920 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+=== TeX engine is 'pdfTeX'
+Latexmk: Errors, so I did not complete making targets
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:1: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage[utf8]{
+                      inputenc}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:2: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage[T1]{
+                    fontenc}
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux)
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:4: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{document}
+                    
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:5: Undefined control sequence.
+l.5     \section
+                {GPU Programmationfill(1.0, length(speedup))}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:6: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{document}
+                  \section{GPU Programmation}
+[1] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 920 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+=== TeX engine is 'pdfTeX'
+Latexmk: Errors, so I did not complete making targets
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:1: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage[utf8]{
+                      inputenc}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:2: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage[T1]{
+                    fontenc}
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux)
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:4: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{document}
+                    
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:5: Undefined control sequence.
+l.5     \section
+                {GPU }
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:6: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{document}
+                  
+[1] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 920 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+=== TeX engine is 'pdfTeX'
+Latexmk: Errors, so I did not complete making targets
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:1: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage[utf8]{
+                      inputenc}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:2: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage[T1]{
+                    fontenc}
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux)
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:4: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{document}
+                    
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:5: Undefined control sequence.
+l.5     \section
+                {GPU }
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:6: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{document}
+                  
+[1] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 920 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+=== TeX engine is 'pdfTeX'
+Latexmk: Errors, so I did not complete making targets
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:1: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage[utf8]{
+                      inputenc}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:2: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage[T1]{
+                    fontenc}
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux)
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:4: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{document}
+                    
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:5: Undefined control sequence.
+l.5     \section
+                {GPU}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:6: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{document}
+                  
+[1] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 920 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+=== TeX engine is 'pdfTeX'
+Latexmk: Errors, so I did not complete making targets
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:1: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage[utf8]{
+                      inputenc}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:2: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage[T1]{
+                    fontenc}
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux)
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:4: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{document}
+                    
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:5: Undefined control sequence.
+l.5     \section
+                {GPU}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:6: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{document}
+                  
+[1] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 920 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+=== TeX engine is 'pdfTeX'
+Latexmk: Errors, so I did not complete making targets
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux)
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:1: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:2: Undefined control sequence.
+l.2     \section
+                {GPU}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:3: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \end{document}
+                  
+[1] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 920 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+=== TeX engine is 'pdfTeX'
+Latexmk: Errors, so I did not complete making targets
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux)
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:1: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{document}
+                    
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:2: Undefined control sequence.
+l.2     \section
+                {GPU}
+
+/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex:3: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \end{document}
+                  
+[1] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 920 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+=== TeX engine is 'pdfTeX'
+Latexmk: Errors, so I did not complete making targets
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 34958 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 34958 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 34845 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 26258 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 26258 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 33350 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 33350 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 35491 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 35491 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 38198 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 38198 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 39643 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 40247 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 40247 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 38198 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 40492 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 41189 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 41427 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 41427 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 41189 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 41428 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 41688 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 41434 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 42084 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 42213 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 42221 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 42580 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 42820 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 42834 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 42969 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 43232 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 43310 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 43971 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 47050 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 47106 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 47321 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 47727 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 58438 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 58438 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 62222 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 62222 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 62255 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (1 page, 62249 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+Overfull \hbox (331.4732pt too wide) in paragraph at lines 30--31
+ \OT1/cmr/bx/n/10 in-sert fig-ures[] [] 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93238 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+Overfull \hbox (331.4732pt too wide) in paragraph at lines 30--31
+ \OT1/cmr/bx/n/10 in-sert fig-ures[] [] 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93238 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+Overfull \hbox (343.1399pt too wide) in paragraph at lines 32--34
+ \OT1/cmr/bx/n/10 in-sert fig-ures[] \OT1/cmr/m/n/10 [t] [] 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] [3] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (3 pages, 93617 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+Overfull \hbox (257.24852pt too wide) in paragraph at lines 31--33
+ [][] 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93292 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+Overfull \hbox (257.24852pt too wide) in paragraph at lines 31--33
+ [][] 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93292 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93317 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93317 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93322 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93322 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93148 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93397 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 93397 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 82683 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (2 pages, 82683 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)> <./images/mul.png (PNG copy)>] [3 <./images/inv.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (3 pages, 121183 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)> <./images/mul.png (PNG copy)>] [3 <./images/inv.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (3 pages, 121183 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)> <./images/mul.png (PNG copy)>] [3 <./images/inv.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (3 pages, 121211 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux'
+      'rapport.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)> <./images/mul.png (PNG copy)>] [3 <./images/inv.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (3 pages, 121211 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)> <./images/mul.png (PNG copy)>] [3 <./images/inv.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (3 pages, 121125 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+LaTeX2e <2019-10-01> patch level 1
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty)) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/add.png (PNG copy)> <./images/mul.png (PNG copy)>] [3 <./images/inv.png (PNG copy)>] (/home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux) )</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf (3 pages, 121659 bytes).
+SyncTeX written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.synctex.gz.
+Transcript written on /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log.
+Latexmk: Log file says output to 'rapport.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets () are up-to-date

@@ -1,0 +1,29 @@
+2020/03/20-15:53:38.602 2f1b Reusing MANIFEST /home/pglandon/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/20-15:53:38.602 2f1b Recovering log #27
+2020/03/20-15:53:38.603 2f1b Reusing old log /home/pglandon/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000027.log 
+2020/03/20-15:53:48.499 53f1 Level-0 table #34: started
+2020/03/20-15:53:48.594 53f1 Level-0 table #34: 19519651 bytes OK
+2020/03/20-15:53:48.600 53f1 Delete type=0 #27
+2020/03/20-15:53:48.604 53f1 Compacting 1@1 + 3@2 files
+2020/03/20-15:53:48.667 53f1 Generated table #35@1: 6 keys, 9441888 bytes
+2020/03/20-15:53:48.745 53f1 Generated table #36@1: 55 keys, 9702725 bytes
+2020/03/20-15:53:48.757 53f1 Generated table #37@1: 8 keys, 3328 bytes
+2020/03/20-15:53:48.757 53f1 Compacted 1@1 + 3@2 files => 19147941 bytes
+2020/03/20-15:53:48.762 53f1 compacted to: files[ 0 0 3 0 0 0 0 ]
+2020/03/20-15:53:48.762 53f1 Delete type=2 #34
+2020/03/20-15:53:48.762 53f1 Delete type=2 #30
+2020/03/20-15:53:48.762 53f1 Delete type=2 #31
+2020/03/20-15:53:48.762 53f1 Delete type=2 #29
+2020/03/20-15:53:50.035 53f1 Level-0 table #39: started
+2020/03/20-15:53:50.115 53f1 Level-0 table #39: 19306573 bytes OK
+2020/03/20-15:53:50.121 53f1 Delete type=0 #33
+2020/03/20-15:53:50.123 53f1 Compacting 1@1 + 3@2 files
+2020/03/20-15:53:50.183 53f1 Generated table #40@1: 6 keys, 9440756 bytes
+2020/03/20-15:53:50.253 53f1 Generated table #41@1: 55 keys, 9702726 bytes
+2020/03/20-15:53:50.263 53f1 Generated table #42@1: 8 keys, 3328 bytes
+2020/03/20-15:53:50.263 53f1 Compacted 1@1 + 3@2 files => 19146810 bytes
+2020/03/20-15:53:50.270 53f1 compacted to: files[ 0 0 3 0 0 0 0 ]
+2020/03/20-15:53:50.270 53f1 Delete type=2 #37
+2020/03/20-15:53:50.270 53f1 Delete type=2 #35
+2020/03/20-15:53:50.270 53f1 Delete type=2 #36
+2020/03/20-15:53:50.270 53f1 Delete type=2 #39

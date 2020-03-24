@@ -1,0 +1,1 @@
+.bm-p-voice-credits:after{content:attr(data-creditcount);display:flex;align-items:center;right:56px;top:0;position:absolute;height:100%;color:#202124}.bm-p-voice-credits--dark:after{color:#fff}.bm-p-voice-callbutton{position:absolute;right:16px;bottom:16px}.bm-p-voice-callicon{float:left}

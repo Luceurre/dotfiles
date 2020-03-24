@@ -1,0 +1,1 @@
+#gb,body>div>div>div:first-child>div>div[role=button],html:not([data-bm-chat-show-nav="1"]) div[aria-label][role=banner]{display:none!important}

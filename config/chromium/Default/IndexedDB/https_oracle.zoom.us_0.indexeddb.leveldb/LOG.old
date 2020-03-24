@@ -1,0 +1,14 @@
+2020/03/18-19:28:26.154 221e65 Reusing MANIFEST /home/pglandon/.config/chromium/Default/IndexedDB/https_oracle.zoom.us_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/18-19:28:28.788 243d9d Level-0 table #5: started
+2020/03/18-19:28:28.824 233c93 Current memtable full; waiting...
+2020/03/18-19:28:28.839 243d9d Level-0 table #5: 3769138 bytes OK
+2020/03/18-19:28:28.847 243d9d Delete type=0 #3
+2020/03/18-19:28:28.850 243d9d Level-0 table #7: started
+2020/03/18-19:28:28.885 243d9d Level-0 table #7: 2183867 bytes OK
+2020/03/18-19:28:28.898 243d9d Delete type=0 #4
+2020/03/18-19:28:28.911 243d9d Level-0 table #9: started
+2020/03/18-19:28:28.950 243d9d Level-0 table #9: 2183620 bytes OK
+2020/03/18-19:28:28.955 243d9d Delete type=0 #6
+2020/03/18-19:28:28.982 243d9d Level-0 table #11: started
+2020/03/18-19:28:29.018 243d9d Level-0 table #11: 2183747 bytes OK
+2020/03/18-19:28:29.023 243d9d Delete type=0 #8

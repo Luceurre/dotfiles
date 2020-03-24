@@ -1,0 +1,21 @@
+2020/03/23-13:34:13.154 87e70 Reusing MANIFEST /home/pglandon/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/03/23-13:34:13.154 87e70 Recovering log #280
+2020/03/23-13:34:13.155 87e70 Reusing old log /home/pglandon/.config/chromium/Default/Sync Data/LevelDB/000280.log 
+2020/03/23-13:48:27.708 90d50 Level-0 table #284: started
+2020/03/23-13:48:27.724 90d50 Level-0 table #284: 104070 bytes OK
+2020/03/23-13:48:27.732 90d50 Delete type=0 #280
+2020/03/23-13:48:27.733 90d50 Compacting 4@0 + 1@1 files
+2020/03/23-13:48:27.750 90d50 Generated table #285@0: 241 keys, 29564 bytes
+2020/03/23-13:48:27.750 90d50 Compacted 4@0 + 1@1 files => 29564 bytes
+2020/03/23-13:48:27.755 90d50 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/23-13:48:27.756 90d50 Delete type=2 #284
+2020/03/23-13:48:27.756 90d50 Delete type=2 #273
+2020/03/23-13:48:27.756 90d50 Delete type=2 #275
+2020/03/23-13:48:27.756 90d50 Delete type=2 #278
+2020/03/23-13:48:27.756 90d50 Delete type=2 #281
+2020/03/23-14:22:03.529 90d50 Level-0 table #287: started
+2020/03/23-14:22:03.537 90d50 Level-0 table #287: 77236 bytes OK
+2020/03/23-14:22:03.549 90d50 Delete type=0 #283
+2020/03/23-14:30:17.029 90d50 Level-0 table #289: started
+2020/03/23-14:30:17.036 90d50 Level-0 table #289: 76312 bytes OK
+2020/03/23-14:30:17.041 90d50 Delete type=0 #286

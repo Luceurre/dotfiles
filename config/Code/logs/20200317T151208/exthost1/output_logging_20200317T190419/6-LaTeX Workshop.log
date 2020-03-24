@@ -1,0 +1,1229 @@
+[19:04:19] Initializing LaTeX Workshop.
+[19:04:19] Creating file watcher for .pdf files.
+[19:04:19] Creating LaTeX Workshop http and websocket server.
+[19:04:19] LaTeX Workshop initialized.
+[19:04:19] Server created on 127.0.0.1:42781
+[19:04:19] Snippet data loaded.
+[19:04:19] LaTeX Workshop version: 8.7.2
+[19:07:48] VIEW command invoked.
+[19:07:48] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:07:48] Root file changed from: undefined to /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex. Find all dependencies.
+[19:07:48] Instantiating a new file watcher for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:07:49] Creating file watcher for .bib files.
+[19:07:49] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:07:49] Adding /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex to file watcher.
+[19:07:54] Cannot find PDF file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:08:03] VIEW command invoked.
+[19:08:03] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:03] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:03] Cannot find PDF file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:08:04] VIEW command invoked.
+[19:08:04] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:04] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:04] Cannot find PDF file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:08:04] VIEW command invoked.
+[19:08:04] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:04] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:04] Cannot find PDF file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:08:04] VIEW command invoked.
+[19:08:04] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:04] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:04] Cannot find PDF file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:08:05] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:05] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:05] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:05] Cannot find PDF file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:08:06] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:06] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:06] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:06] Cannot find PDF file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:08:06] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:06] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:06] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:06] Cannot find PDF file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:08:13] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:13] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:08:15] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:15] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:15] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:08:15] BUILD command invoked.
+[19:08:15] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:15] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:15] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:08:15] LaTeX build process spawned. PID: 2596553.
+[19:08:15] LaTeX log parsed with 5 messages.
+[19:08:15] Recipe returns with error: 12/null. PID: 2596553. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[19:08:15] Cleaning auxillary files and retrying build after toolchain error.
+[19:08:15] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux
+[19:08:15] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.fls
+[19:08:15] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log
+[19:08:15] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.fdb_latexmk
+[19:08:15] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:08:15] LaTeX build process spawned. PID: 2596743.
+[19:08:16] LaTeX log parsed with 5 messages.
+[19:08:16] Recipe returns with error: 12/null. PID: 2596743. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[19:08:27] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:27] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:27] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:08:27] BUILD command invoked.
+[19:08:27] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:27] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:27] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:08:27] LaTeX build process spawned. PID: 2603061.
+[19:08:27] LaTeX log parsed with 5 messages.
+[19:08:27] Recipe returns with error: 12/null. PID: 2603061. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[19:08:27] Cleaning auxillary files and retrying build after toolchain error.
+[19:08:27] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux
+[19:08:27] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.fls
+[19:08:27] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log
+[19:08:27] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.fdb_latexmk
+[19:08:27] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:08:27] LaTeX build process spawned. PID: 2603221.
+[19:08:27] LaTeX log parsed with 5 messages.
+[19:08:27] Recipe returns with error: 12/null. PID: 2603221. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[19:08:35] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:35] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:35] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:08:35] BUILD command invoked.
+[19:08:35] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:35] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:08:35] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:08:35] LaTeX build process spawned. PID: 2607542.
+[19:08:35] LaTeX log parsed with 5 messages.
+[19:08:35] Recipe returns with error: 12/null. PID: 2607542. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[19:08:35] Cleaning auxillary files and retrying build after toolchain error.
+[19:08:35] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux
+[19:08:35] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.fls
+[19:08:35] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log
+[19:08:35] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.fdb_latexmk
+[19:08:35] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:08:35] LaTeX build process spawned. PID: 2607684.
+[19:08:35] LaTeX log parsed with 5 messages.
+[19:08:35] Recipe returns with error: 12/null. PID: 2607684. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[19:09:11] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:11] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:09:16] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:16] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:16] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:09:16] BUILD command invoked.
+[19:09:16] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:16] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:16] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:09:16] LaTeX build process spawned. PID: 2629759.
+[19:09:16] LaTeX log parsed with 3 messages.
+[19:09:16] Recipe returns with error: 12/null. PID: 2629759. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+      'rapport.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[19:09:16] Cleaning auxillary files and retrying build after toolchain error.
+[19:09:16] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.fls
+[19:09:16] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.log
+[19:09:16] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.fdb_latexmk
+[19:09:16] File cleaned: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.aux
+[19:09:16] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:09:16] LaTeX build process spawned. PID: 2629888.
+[19:09:16] LaTeX log parsed with 3 messages.
+[19:09:16] Recipe returns with error: 12/null. PID: 2629888. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/pglandon/JuliaProjects/getting-started/pierre"  "/home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex"'
+------------
+Latexmk: Log file says output to 'rapport.pdf'
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/pglandon/JuliaProjects/getting-started/pierre/rapport.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[19:09:51] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:51] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:09:55] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:55] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:55] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:09:55] BUILD command invoked.
+[19:09:55] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:55] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:09:55] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:09:55] LaTeX build process spawned. PID: 2651347.
+[19:09:55] LaTeX log parsed with 0 messages.
+[19:09:55] Recipe of length 1 finished. PID: 2651347.
+[19:09:55] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:09:55] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:09:55] Parse fls file.
+[19:10:07] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:10:07] Active document is not a TeX file.
+[19:10:08] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:10:08] Active document is not a TeX file.
+[19:10:08] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:10:08] Active document is not a TeX file.
+[19:10:08] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:10:08] Active document is not a TeX file.
+[19:10:08] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:10:08] Active document is not a TeX file.
+[19:10:18] VIEW command invoked.
+[19:10:18] Active document is not a TeX file.
+[19:10:19] VIEW command invoked.
+[19:10:19] Active document is not a TeX file.
+[19:10:19] VIEW command invoked.
+[19:10:19] Active document is not a TeX file.
+[19:10:21] VIEW command invoked with mode: tab.
+[19:10:21] Active document is not a TeX file.
+[19:10:22] VIEW command invoked with mode: tab.
+[19:10:22] Active document is not a TeX file.
+[19:10:22] VIEW command invoked with mode: tab.
+[19:10:22] Active document is not a TeX file.
+[19:10:24] VIEW command invoked with mode: tab.
+[19:10:24] Active document is not a TeX file.
+[19:10:24] VIEW command invoked with mode: tab.
+[19:10:24] Active document is not a TeX file.
+[19:10:27] VIEW command invoked with mode: set.
+[19:10:27] Active document is not a TeX file.
+[19:10:27] VIEW command invoked with mode: set.
+[19:10:27] Active document is not a TeX file.
+[19:10:27] VIEW command invoked with mode: set.
+[19:10:27] Active document is not a TeX file.
+[19:10:27] VIEW command invoked with mode: set.
+[19:10:27] Active document is not a TeX file.
+[19:10:29] VIEW command invoked with mode: set.
+[19:10:29] Active document is not a TeX file.
+[19:10:29] VIEW command invoked with mode: set.
+[19:10:29] Active document is not a TeX file.
+[19:10:29] VIEW command invoked with mode: set.
+[19:10:29] Active document is not a TeX file.
+[19:10:29] VIEW command invoked with mode: set.
+[19:10:29] Active document is not a TeX file.
+[19:10:29] VIEW command invoked with mode: set.
+[19:10:29] Active document is not a TeX file.
+[19:10:33] REFRESH command invoked.
+[19:10:33] VIEW command invoked with mode: set.
+[19:10:33] Active document is not a TeX file.
+[19:10:34] VIEW command invoked with mode: set.
+[19:10:34] Active document is not a TeX file.
+[19:10:34] VIEW command invoked with mode: set.
+[19:10:34] Active document is not a TeX file.
+[19:11:07] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:07] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:11:08] VIEW command invoked with mode: file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:11:08] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:08] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:11:08] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:11:08] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:11:08] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:11:08] Handle data type: open
+[19:11:08] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:11:08] Handle data type: request_params
+[19:11:08] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:08] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:11:08] Handle data type: loaded
+[19:11:25] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:25] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:25] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:11:25] BUILD command invoked.
+[19:11:25] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:25] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:25] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:11:25] LaTeX build process spawned. PID: 2700709.
+[19:11:25] LaTeX log parsed with 0 messages.
+[19:11:25] Recipe of length 1 finished. PID: 2700709.
+[19:11:25] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:11:25] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:11:25] Parse fls file.
+[19:11:26] Handle data type: close
+[19:11:28] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:28] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:28] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:11:28] BUILD command invoked.
+[19:11:28] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:28] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:28] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:11:28] LaTeX build process spawned. PID: 2702808.
+[19:11:29] LaTeX log parsed with 0 messages.
+[19:11:29] Recipe of length 1 finished. PID: 2702808.
+[19:11:29] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:11:29] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:11:29] Parse fls file.
+[19:11:30] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:30] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:30] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:11:30] BUILD command invoked.
+[19:11:30] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:30] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:30] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:11:30] LaTeX build process spawned. PID: 2703948.
+[19:11:31] LaTeX log parsed with 0 messages.
+[19:11:31] Recipe of length 1 finished. PID: 2703948.
+[19:11:31] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:11:31] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:11:31] Parse fls file.
+[19:11:32] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:32] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:32] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:11:32] BUILD command invoked.
+[19:11:32] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:32] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:11:32] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:11:32] LaTeX build process spawned. PID: 2705127.
+[19:11:32] Recipe of length 1 finished. PID: 2705127.
+[19:11:32] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:11] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:11] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:11] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:11] BUILD command invoked.
+[19:12:11] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:11] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:11] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:11] LaTeX build process spawned. PID: 2726574.
+[19:12:12] LaTeX log parsed with 0 messages.
+[19:12:12] Recipe of length 1 finished. PID: 2726574.
+[19:12:12] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:12] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:12] Parse fls file.
+[19:12:13] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:13] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:13] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:13] BUILD command invoked.
+[19:12:13] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:13] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:13] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:13] LaTeX build process spawned. PID: 2727762.
+[19:12:13] Recipe of length 1 finished. PID: 2727762.
+[19:12:13] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:15] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:15] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:15] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:15] BUILD command invoked.
+[19:12:15] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:15] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:15] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:15] LaTeX build process spawned. PID: 2728829.
+[19:12:15] LaTeX log parsed with 0 messages.
+[19:12:15] Recipe of length 1 finished. PID: 2728829.
+[19:12:15] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:15] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:15] Parse fls file.
+[19:12:17] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:17] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:17] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:17] BUILD command invoked.
+[19:12:17] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:17] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:17] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:17] LaTeX build process spawned. PID: 2729997.
+[19:12:17] LaTeX log parsed with 0 messages.
+[19:12:17] Recipe of length 1 finished. PID: 2729997.
+[19:12:17] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:17] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:17] Parse fls file.
+[19:12:19] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:19] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:19] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:19] BUILD command invoked.
+[19:12:19] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:19] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:19] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:19] LaTeX build process spawned. PID: 2731132.
+[19:12:19] LaTeX log parsed with 0 messages.
+[19:12:19] Recipe of length 1 finished. PID: 2731132.
+[19:12:19] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:19] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:19] Parse fls file.
+[19:12:21] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:21] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:21] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:21] BUILD command invoked.
+[19:12:21] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:21] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:21] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:21] LaTeX build process spawned. PID: 2732282.
+[19:12:21] LaTeX log parsed with 0 messages.
+[19:12:21] Recipe of length 1 finished. PID: 2732282.
+[19:12:21] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:21] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:21] Parse fls file.
+[19:12:23] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:23] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:23] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:23] BUILD command invoked.
+[19:12:23] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:23] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:23] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:23] LaTeX build process spawned. PID: 2733406.
+[19:12:23] LaTeX log parsed with 0 messages.
+[19:12:23] Recipe of length 1 finished. PID: 2733406.
+[19:12:23] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:23] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:23] Parse fls file.
+[19:12:25] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:25] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:25] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:25] BUILD command invoked.
+[19:12:25] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:25] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:25] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:25] LaTeX build process spawned. PID: 2734552.
+[19:12:25] LaTeX log parsed with 0 messages.
+[19:12:25] Recipe of length 1 finished. PID: 2734552.
+[19:12:25] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:25] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:25] Parse fls file.
+[19:12:27] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:27] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:27] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:27] BUILD command invoked.
+[19:12:27] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:27] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:27] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:27] LaTeX build process spawned. PID: 2735685.
+[19:12:28] LaTeX log parsed with 0 messages.
+[19:12:28] Recipe of length 1 finished. PID: 2735685.
+[19:12:28] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:28] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:28] Parse fls file.
+[19:12:29] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:29] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:29] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:29] BUILD command invoked.
+[19:12:29] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:29] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:29] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:29] LaTeX build process spawned. PID: 2736832.
+[19:12:30] LaTeX log parsed with 0 messages.
+[19:12:30] Recipe of length 1 finished. PID: 2736832.
+[19:12:30] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:30] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:30] Parse fls file.
+[19:12:31] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:31] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:31] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:31] BUILD command invoked.
+[19:12:31] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:31] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:31] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:31] LaTeX build process spawned. PID: 2737964.
+[19:12:32] LaTeX log parsed with 0 messages.
+[19:12:32] Recipe of length 1 finished. PID: 2737964.
+[19:12:32] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:32] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:32] Parse fls file.
+[19:12:33] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:33] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:33] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:33] BUILD command invoked.
+[19:12:33] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:33] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:33] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:33] LaTeX build process spawned. PID: 2739103.
+[19:12:34] LaTeX log parsed with 0 messages.
+[19:12:34] Recipe of length 1 finished. PID: 2739103.
+[19:12:34] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:34] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:34] Parse fls file.
+[19:12:35] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:35] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:35] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:35] BUILD command invoked.
+[19:12:35] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:35] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:35] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:35] LaTeX build process spawned. PID: 2740211.
+[19:12:36] LaTeX log parsed with 0 messages.
+[19:12:36] Recipe of length 1 finished. PID: 2740211.
+[19:12:36] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:36] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:36] Parse fls file.
+[19:12:37] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:37] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:37] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:37] BUILD command invoked.
+[19:12:37] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:37] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:37] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:37] LaTeX build process spawned. PID: 2741315.
+[19:12:38] LaTeX log parsed with 0 messages.
+[19:12:38] Recipe of length 1 finished. PID: 2741315.
+[19:12:38] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:38] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:38] Parse fls file.
+[19:12:39] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:39] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:39] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:39] BUILD command invoked.
+[19:12:39] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:39] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:39] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:39] LaTeX build process spawned. PID: 2742403.
+[19:12:40] LaTeX log parsed with 0 messages.
+[19:12:40] Recipe of length 1 finished. PID: 2742403.
+[19:12:40] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:40] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:40] Parse fls file.
+[19:12:41] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:41] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:41] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:41] BUILD command invoked.
+[19:12:41] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:41] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:41] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:41] LaTeX build process spawned. PID: 2743538.
+[19:12:42] LaTeX log parsed with 0 messages.
+[19:12:42] Recipe of length 1 finished. PID: 2743538.
+[19:12:42] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:42] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:42] Parse fls file.
+[19:12:43] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:43] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:43] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:43] BUILD command invoked.
+[19:12:43] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:43] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:43] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:43] LaTeX build process spawned. PID: 2744647.
+[19:12:44] LaTeX log parsed with 0 messages.
+[19:12:44] Recipe of length 1 finished. PID: 2744647.
+[19:12:44] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:44] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:44] Parse fls file.
+[19:12:45] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:45] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:45] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:45] BUILD command invoked.
+[19:12:45] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:45] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:45] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:45] LaTeX build process spawned. PID: 2745774.
+[19:12:46] LaTeX log parsed with 0 messages.
+[19:12:46] Recipe of length 1 finished. PID: 2745774.
+[19:12:46] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:46] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:46] Parse fls file.
+[19:12:47] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:47] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:47] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:47] BUILD command invoked.
+[19:12:47] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:47] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:47] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:47] LaTeX build process spawned. PID: 2746940.
+[19:12:48] LaTeX log parsed with 0 messages.
+[19:12:48] Recipe of length 1 finished. PID: 2746940.
+[19:12:48] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:48] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:48] Parse fls file.
+[19:12:49] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:49] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:49] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:49] BUILD command invoked.
+[19:12:49] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:49] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:49] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:49] LaTeX build process spawned. PID: 2748023.
+[19:12:50] LaTeX log parsed with 0 messages.
+[19:12:50] Recipe of length 1 finished. PID: 2748023.
+[19:12:50] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:50] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:50] Parse fls file.
+[19:12:51] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:51] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:51] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:51] BUILD command invoked.
+[19:12:51] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:51] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:51] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:51] LaTeX build process spawned. PID: 2749192.
+[19:12:52] LaTeX log parsed with 0 messages.
+[19:12:52] Recipe of length 1 finished. PID: 2749192.
+[19:12:52] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:52] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:52] Parse fls file.
+[19:12:53] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:53] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:53] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:53] BUILD command invoked.
+[19:12:53] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:53] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:53] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:53] LaTeX build process spawned. PID: 2750318.
+[19:12:54] LaTeX log parsed with 0 messages.
+[19:12:54] Recipe of length 1 finished. PID: 2750318.
+[19:12:54] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:54] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:54] Parse fls file.
+[19:12:55] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:55] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:55] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:55] BUILD command invoked.
+[19:12:55] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:55] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:55] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:55] LaTeX build process spawned. PID: 2751457.
+[19:12:56] LaTeX log parsed with 0 messages.
+[19:12:56] Recipe of length 1 finished. PID: 2751457.
+[19:12:56] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:56] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:56] Parse fls file.
+[19:12:57] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:57] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:57] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:57] BUILD command invoked.
+[19:12:57] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:57] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:57] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:57] LaTeX build process spawned. PID: 2752581.
+[19:12:58] LaTeX log parsed with 0 messages.
+[19:12:58] Recipe of length 1 finished. PID: 2752581.
+[19:12:58] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:12:58] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:12:58] Parse fls file.
+[19:12:59] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:59] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:59] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:12:59] BUILD command invoked.
+[19:12:59] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:59] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:12:59] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:12:59] LaTeX build process spawned. PID: 2753655.
+[19:13:00] LaTeX log parsed with 0 messages.
+[19:13:00] Recipe of length 1 finished. PID: 2753655.
+[19:13:00] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:13:00] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:13:00] Parse fls file.
+[19:13:01] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:01] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:01] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:13:01] BUILD command invoked.
+[19:13:01] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:01] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:01] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:13:01] LaTeX build process spawned. PID: 2754805.
+[19:13:02] Recipe of length 1 finished. PID: 2754805.
+[19:13:02] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:13:58] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:58] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:58] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:13:58] BUILD command invoked.
+[19:13:58] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:58] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:58] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:13:58] LaTeX build process spawned. PID: 2785476.
+[19:13:58] VIEW command invoked.
+[19:13:58] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:58] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:13:58] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:13:58] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:13:58] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:13:59] LaTeX log parsed with 0 messages.
+[19:13:59] Recipe of length 1 finished. PID: 2785476.
+[19:13:59] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:13:59] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:13:59] Parse fls file.
+[19:13:59] Handle data type: open
+[19:13:59] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:13:59] Handle data type: request_params
+[19:13:59] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:13:59] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:13:59] Handle data type: loaded
+[19:22:04] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:22:04] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:22:47] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:22:47] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:22:47] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:22:47] BUILD command invoked.
+[19:22:47] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:22:47] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:22:47] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:22:47] LaTeX build process spawned. PID: 3075064.
+[19:22:48] LaTeX log parsed with 0 messages.
+[19:22:48] Recipe of length 1 finished. PID: 3075064.
+[19:22:48] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:22:48] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:22:48] Parse fls file.
+[19:22:48] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:22:48] Handle data type: loaded
+[19:23:07] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:23:07] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:23:07] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:23:07] BUILD command invoked.
+[19:23:07] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:23:07] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:23:07] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:23:07] LaTeX build process spawned. PID: 3085728.
+[19:23:07] LaTeX log parsed with 0 messages.
+[19:23:07] Recipe of length 1 finished. PID: 3085728.
+[19:23:07] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:23:07] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:23:07] Parse fls file.
+[19:23:08] Handle data type: close
+[19:23:25] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:23:25] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:25:19] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:25:19] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:25:19] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:25:19] BUILD command invoked.
+[19:25:19] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:25:19] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:25:19] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:25:19] LaTeX build process spawned. PID: 3156825.
+[19:25:19] LaTeX log parsed with 0 messages.
+[19:25:19] Recipe of length 1 finished. PID: 3156825.
+[19:25:19] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:25:19] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:25:19] Parse fls file.
+[19:27:03] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:03] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:03] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:27:03] BUILD command invoked.
+[19:27:03] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:03] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:03] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:27:03] LaTeX build process spawned. PID: 3213320.
+[19:27:03] LaTeX log parsed with 0 messages.
+[19:27:03] Recipe of length 1 finished. PID: 3213320.
+[19:27:03] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:27:03] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:27:03] Parse fls file.
+[19:27:40] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:40] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:40] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:27:40] BUILD command invoked.
+[19:27:40] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:40] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:40] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:27:40] LaTeX build process spawned. PID: 3233978.
+[19:27:41] LaTeX log parsed with 0 messages.
+[19:27:41] Recipe of length 1 finished. PID: 3233978.
+[19:27:41] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:27:41] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:27:41] Parse fls file.
+[19:27:42] VIEW command invoked.
+[19:27:42] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:42] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:27:42] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:27:42] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:27:42] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:27:42] Handle data type: open
+[19:27:42] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:27:42] Handle data type: request_params
+[19:27:42] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:27:42] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:27:42] Handle data type: loaded
+[19:35:39] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:35:39] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:35:39] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:35:39] BUILD command invoked.
+[19:35:39] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:35:39] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:35:39] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:35:39] LaTeX build process spawned. PID: 3492102.
+[19:35:40] LaTeX log parsed with 0 messages.
+[19:35:40] Recipe of length 1 finished. PID: 3492102.
+[19:35:40] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:35:40] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:35:40] Parse fls file.
+[19:35:40] VIEW command invoked.
+[19:35:40] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:35:40] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:35:40] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:35:40] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:35:40] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:35:40] Handle data type: close
+[19:35:40] Handle data type: open
+[19:35:40] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:35:40] Handle data type: request_params
+[19:35:40] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:35:40] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:35:40] Handle data type: loaded
+[19:35:55] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:35:55] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:36:30] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:36:30] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:36:30] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:36:30] BUILD command invoked.
+[19:36:30] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:36:30] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:36:30] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:36:30] LaTeX build process spawned. PID: 3519224.
+[19:36:30] LaTeX log parsed with 0 messages.
+[19:36:30] Recipe of length 1 finished. PID: 3519224.
+[19:36:30] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:36:30] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:36:30] Parse fls file.
+[19:36:30] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:36:30] Handle data type: loaded
+[19:37:18] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:37:18] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:37:24] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:37:24] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:37:24] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:37:24] BUILD command invoked.
+[19:37:24] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:37:24] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:37:24] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:37:24] LaTeX build process spawned. PID: 3549203.
+[19:37:24] LaTeX log parsed with 0 messages.
+[19:37:24] Recipe of length 1 finished. PID: 3549203.
+[19:37:24] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:37:24] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:37:24] Parse fls file.
+[19:37:25] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:37:25] Handle data type: loaded
+[19:42:25] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:42:25] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:42:25] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:42:25] BUILD command invoked.
+[19:42:25] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:42:25] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:42:25] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:42:25] LaTeX build process spawned. PID: 3726474.
+[19:42:26] LaTeX log parsed with 1 messages.
+[19:42:26] Recipe of length 1 finished. PID: 3726474.
+[19:42:26] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:42:26] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:42:26] Parse fls file.
+[19:42:26] Handle data type: close
+[19:42:28] Adding /home/pglandon/JuliaProjects/getting-started/pierre/images/add.png to file watcher.
+[19:42:29] VIEW command invoked.
+[19:42:29] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:42:29] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:42:29] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:42:29] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:42:29] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:42:30] Handle data type: open
+[19:42:30] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:42:30] Handle data type: request_params
+[19:42:30] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:42:30] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:42:30] Handle data type: loaded
+[19:43:27] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:27] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:27] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:43:27] BUILD command invoked.
+[19:43:27] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:27] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:27] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:43:27] LaTeX build process spawned. PID: 3760360.
+[19:43:27] LaTeX log parsed with 1 messages.
+[19:43:27] Recipe of length 1 finished. PID: 3760360.
+[19:43:27] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:43:27] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:43:27] Parse fls file.
+[19:43:27] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:27] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:43:28] Handle data type: close
+[19:43:28] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:28] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:43:35] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:35] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:35] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:43:35] BUILD command invoked.
+[19:43:35] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:35] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:35] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:43:36] LaTeX build process spawned. PID: 3765236.
+[19:43:36] LaTeX log parsed with 1 messages.
+[19:43:36] Recipe of length 1 finished. PID: 3765236.
+[19:43:36] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:43:36] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:43:36] Parse fls file.
+[19:43:37] VIEW command invoked.
+[19:43:37] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:37] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:43:37] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:43:37] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:43:37] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:43:37] Handle data type: open
+[19:43:37] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:43:37] Handle data type: request_params
+[19:43:37] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:43:37] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:43:37] Handle data type: loaded
+[19:44:24] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:24] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:24] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:44:24] BUILD command invoked.
+[19:44:24] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:24] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:24] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:44:24] LaTeX build process spawned. PID: 3791723.
+[19:44:24] VIEW command invoked.
+[19:44:24] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:24] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:44:24] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:44:24] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:44:24] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:44:25] LaTeX log parsed with 0 messages.
+[19:44:25] Recipe of length 1 finished. PID: 3791723.
+[19:44:25] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:44:25] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:44:25] Parse fls file.
+[19:44:25] Handle data type: open
+[19:44:25] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:44:25] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:44:25] Handle data type: request_params
+[19:44:25] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:25] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:44:25] Handle data type: loaded
+[19:44:51] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:51] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:51] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:44:51] BUILD command invoked.
+[19:44:51] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:51] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:44:51] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:44:51] LaTeX build process spawned. PID: 3806501.
+[19:44:52] LaTeX log parsed with 0 messages.
+[19:44:52] Recipe of length 1 finished. PID: 3806501.
+[19:44:52] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:44:52] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:44:52] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:44:52] Parse fls file.
+[19:44:52] Handle data type: close
+[19:44:52] Handle data type: close
+[19:45:29] VIEW command invoked.
+[19:45:29] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:29] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:29] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:45:29] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:45:29] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:45:29] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:29] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:29] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:45:29] BUILD command invoked.
+[19:45:29] Handle data type: open
+[19:45:29] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:29] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:29] Handle data type: close
+[19:45:35] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:35] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:35] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:45:35] BUILD command invoked.
+[19:45:37] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:37] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:40] VIEW command invoked.
+[19:45:40] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:40] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:40] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:45:40] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:45:40] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:45:41] Handle data type: open
+[19:45:41] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:45:41] Handle data type: request_params
+[19:45:41] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:41] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:41] Handle data type: loaded
+[19:45:41] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:41] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:41] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:45:41] BUILD command invoked.
+[19:45:41] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:41] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:41] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:45:41] LaTeX build process spawned. PID: 3833867.
+[19:45:41] LaTeX log parsed with 1 messages.
+[19:45:41] Recipe of length 1 finished. PID: 3833867.
+[19:45:41] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:41] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:45:41] Parse fls file.
+[19:45:42] Handle data type: close
+[19:45:46] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:46] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:46] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:45:46] BUILD command invoked.
+[19:45:47] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:47] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:47] VIEW command invoked.
+[19:45:47] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:47] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:47] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:45:47] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:45:47] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:45:48] Handle data type: open
+[19:45:48] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:48] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:45:48] Handle data type: close
+[19:45:56] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:45:56] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:46:03] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:03] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:03] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:46:03] BUILD command invoked.
+[19:46:03] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:03] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:03] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:46:04] LaTeX build process spawned. PID: 3846255.
+[19:46:04] LaTeX log parsed with 0 messages.
+[19:46:04] Recipe of length 1 finished. PID: 3846255.
+[19:46:04] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:46:04] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:46:04] Parse fls file.
+[19:46:04] VIEW command invoked.
+[19:46:04] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:04] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:46:04] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:46:04] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:46:04] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:46:05] Handle data type: open
+[19:46:05] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:46:05] Handle data type: request_params
+[19:46:05] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:05] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:46:05] Handle data type: loaded
+[19:46:07] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:07] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:46:13] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:13] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:13] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:46:13] BUILD command invoked.
+[19:46:13] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:13] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:13] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:46:13] LaTeX build process spawned. PID: 3851351.
+[19:46:13] LaTeX log parsed with 0 messages.
+[19:46:13] Recipe of length 1 finished. PID: 3851351.
+[19:46:13] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:46:13] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:46:13] Parse fls file.
+[19:46:14] Handle data type: close
+[19:46:17] VIEW command invoked.
+[19:46:17] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:17] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:46:17] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:46:17] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:46:17] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:46:17] Handle data type: open
+[19:46:17] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:46:17] Handle data type: request_params
+[19:46:17] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:46:17] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:46:18] Handle data type: loaded
+[19:47:24] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:24] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:24] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:47:24] BUILD command invoked.
+[19:47:24] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:24] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:24] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:47:24] LaTeX build process spawned. PID: 3890091.
+[19:47:24] LaTeX log parsed with 0 messages.
+[19:47:24] Recipe of length 1 finished. PID: 3890091.
+[19:47:24] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:47:24] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:47:24] Parse fls file.
+[19:47:25] Handle data type: close
+[19:47:37] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:37] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:37] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:47:37] BUILD command invoked.
+[19:47:37] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:37] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:37] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:47:37] LaTeX build process spawned. PID: 3897245.
+[19:47:37] LaTeX log parsed with 0 messages.
+[19:47:37] Recipe of length 1 finished. PID: 3897245.
+[19:47:37] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:47:37] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:47:37] Parse fls file.
+[19:47:38] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:38] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:47:52] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:52] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:52] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:47:52] BUILD command invoked.
+[19:47:52] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:52] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:47:52] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:47:52] LaTeX build process spawned. PID: 3905445.
+[19:47:52] LaTeX log parsed with 0 messages.
+[19:47:52] Recipe of length 1 finished. PID: 3905445.
+[19:47:52] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:47:52] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:47:52] Parse fls file.
+[19:47:54] Adding /home/pglandon/JuliaProjects/getting-started/pierre/images/mul.png to file watcher.
+[19:47:54] Adding /home/pglandon/JuliaProjects/getting-started/pierre/images/inv.png to file watcher.
+[19:48:12] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:48:12] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:48:12] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:48:12] BUILD command invoked.
+[19:48:12] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:48:12] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:48:12] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:48:12] LaTeX build process spawned. PID: 3916245.
+[19:48:12] LaTeX log parsed with 0 messages.
+[19:48:12] Recipe of length 1 finished. PID: 3916245.
+[19:48:12] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:48:12] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:48:12] Parse fls file.
+[19:48:15] VIEW command invoked.
+[19:48:15] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:48:15] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:48:15] Serving PDF file at http://localhost:42781/viewer.html?file=pdf..JTJGaG9tZSUyRnBnbGFuZG9uJTJGSnVsaWFQcm9qZWN0cyUyRmdldHRpbmctc3RhcnRlZCUyRnBpZXJyZSUyRnJhcHBvcnQucGRm
+[19:48:15] The encoded path is /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:48:15] Open PDF tab for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:48:15] Handle data type: open
+[19:48:15] Preview PDF file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:48:15] Handle data type: request_params
+[19:48:15] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:48:15] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:48:15] Handle data type: loaded
+[19:54:39] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:54:39] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:54:39] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:54:39] BUILD command invoked.
+[19:54:39] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:54:39] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:54:39] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:54:39] LaTeX build process spawned. PID: 4136489.
+[19:54:40] LaTeX log parsed with 0 messages.
+[19:54:40] Recipe of length 1 finished. PID: 4136489.
+[19:54:40] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:54:40] Refresh PDF viewer for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:54:40] Parse fls file.
+[19:54:40] Handle data type: close
+[19:56:04] File watcher: responding to change in /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:56:04] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:56:04] /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex changed. Auto build project.
+[19:56:04] BUILD command invoked.
+[19:56:04] Building root file: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:56:04] Build root file /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[19:56:04] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/pglandon/JuliaProjects/getting-started/pierre,/home/pglandon/JuliaProjects/getting-started/pierre/rapport
+[19:56:04] LaTeX build process spawned. PID: 4181945.
+[19:56:05] LaTeX log parsed with 0 messages.
+[19:56:05] Recipe of length 1 finished. PID: 4181945.
+[19:56:05] Successfully built /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.
+[19:56:05] No PDF viewer connected for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.pdf
+[19:56:05] Parse fls file.

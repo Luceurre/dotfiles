@@ -1,0 +1,15 @@
+[13:56:37] Initializing LaTeX Workshop.
+[13:56:37] Creating file watcher for .pdf files.
+[13:56:37] Creating LaTeX Workshop http and websocket server.
+[13:56:37] LaTeX Workshop initialized.
+[13:56:37] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[13:56:37] Root file changed from: undefined to /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex. Find all dependencies.
+[13:56:37] Instantiating a new file watcher for /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[13:56:37] Creating file watcher for .bib files.
+[13:56:37] Parsing /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[13:56:37] Server created on 127.0.0.1:46831
+[13:56:37] Adding /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex to file watcher.
+[13:56:37] LaTeX Workshop version: 8.7.2
+[13:56:37] Snippet data loaded.
+[13:57:42] Found root file from active editor: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex
+[13:57:42] Root file remains unchanged from: /home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex.

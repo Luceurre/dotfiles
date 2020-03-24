@@ -1,0 +1,610 @@
+2020-03-22T18:57:16.320Z grammarly:server Server Ready.
+2020-03-22T18:57:32.427Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T18:57:32.430Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/Downloads/FastMarching_Pierre_Glandon/FastMarching/CMakeLists.txt',
+  account: 'public'
+}
+2020-03-22T18:57:32.452Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T18:57:32.452Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/Downloads/FastMarching_Pierre_Glandon/FastMarching/CMakeLists.txt',
+  account: 'public'
+}
+2020-03-22T18:57:32.455Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Pierre_Glandon/FastMarching/CMakeLists.txt'
+  },
+  diagnostics: []
+}
+2020-03-22T18:57:32.830Z grammarly:auth initial cookie [
+  'grauth=AABHp1LrpkXH_IpEJ6JYt94XXUREZ9b4rcPH3RiPMDi0_56A9YAGTTWEhNJDqNvnTUlUOGXS6t4Hq3gj; Expires=Mon, 22 Mar 2021 17:57:31 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHp6gwrgn5Z9NDnJ/hcBMU69gfLfk+1GzYug; Expires=Mon, 22 Mar 2021 17:57:31 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=lvtka8jab3nkc82; Expires=Wed, 20 Mar 2030 17:57:31 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T18:57:32.836Z grammarly:auth initial cookie [
+  'grauth=AABHp-ZWCm17ZC1TfE4DnNqNubmQCr5B1X0IV0m3ZBXvVkavGWruMbcSNCQ8lC19LXqBSKKNGhBbUsIv; Expires=Mon, 22 Mar 2021 17:57:31 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHp9+VnzZMXR8Pe8/CDw3dmLwvnPZCZsLqnw; Expires=Mon, 22 Mar 2021 17:57:31 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=zxpza8jab3noao2; Expires=Wed, 20 Mar 2030 17:57:31 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T18:57:33.170Z grammarly:auth can continue as anonymous user
+2020-03-22T18:57:33.255Z grammarly:auth can continue as anonymous user
+2020-03-22T18:57:33.519Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0Rvd25sb2Fkcy9GYXN0TWFyY2hpbmdfUGllcnJlX0dsYW5kb24vRmFzdE1hcmNoaW5nL0NNYWtlTGlzdHMudHh0',
+  id: 0
+}
+2020-03-22T18:57:33.589Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0Rvd25sb2Fkcy9GYXN0TWFyY2hpbmdfUGllcnJlX0dsYW5kb24vRmFzdE1hcmNoaW5nL0NNYWtlTGlzdHMudHh0',
+  id: 0
+}
+2020-03-22T18:57:33.626Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T18:57:33.626Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T18:57:33.627Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'lvtka8jab3nkc82',
+  id: 2
+}
+2020-03-22T18:57:33.688Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T18:57:33.688Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T18:57:33.688Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'zxpza8jab3noao2',
+  id: 2
+}
+2020-03-22T18:57:33.742Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-22T18:57:33.743Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-22T18:57:33.747Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 55,
+  charsCount: 1091,
+  readabilityScore: -2,
+  action: 'text_info',
+  id: 0
+}
+2020-03-22T18:57:33.754Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'Formatting',
+  pid: 1128918,
+  rid: 1128918,
+  sid: 672382,
+  begin: 175,
+  end: 179,
+  text: 'list',
+  group: 'Style',
+  pname: 'Style/Formatting/LowerCaseSentenceStart/LowercaseSentenceStart',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 175,
+  highlightEnd: 179,
+  highlightText: 'list',
+  replacements: [],
+  transformJson: { context: { s: 175, e: 186 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Conventions',
+    groupDescription: 'Checks spacing, capitalization, and dialect-specific spelling',
+    rank: 50,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Improper Formatting',
+  cost: 1,
+  action: 'alert',
+  id: 33
+}
+2020-03-22T18:57:33.755Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '33', id: 3 }
+2020-03-22T18:57:33.800Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-22T18:57:33.800Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-22T18:57:33.806Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 55,
+  charsCount: 1091,
+  readabilityScore: -2,
+  action: 'text_info',
+  id: 0
+}
+2020-03-22T18:57:33.813Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'Formatting',
+  pid: 1128918,
+  rid: 1128918,
+  sid: 636532,
+  begin: 175,
+  end: 179,
+  text: 'list',
+  group: 'Style',
+  pname: 'Style/Formatting/LowerCaseSentenceStart/LowercaseSentenceStart',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 175,
+  highlightEnd: 179,
+  highlightText: 'list',
+  replacements: [],
+  transformJson: { context: { s: 175, e: 186 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Conventions',
+    groupDescription: 'Checks spacing, capitalization, and dialect-specific spelling',
+    rank: 50,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Improper Formatting',
+  cost: 1,
+  action: 'alert',
+  id: 33
+}
+2020-03-22T18:57:33.814Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '33', id: 3 }
+2020-03-22T18:57:33.839Z grammarly:host 🔻 { action: 'remove', id: 33 }
+2020-03-22T18:57:33.841Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-22T18:57:33.894Z grammarly:host 🔻 { action: 'remove', id: 33 }
+2020-03-22T18:57:33.895Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-22T18:57:37.813Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  score: 100,
+  outcomeScores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  generalScore: 100,
+  removed: [],
+  dialect: 'american',
+  foreign: false,
+  action: 'finished'
+}
+(node:744430) UnhandledPromiseRejectionWarning: Error: DocumentNotFound
+    at new DocumentNotFoundException (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33645:28)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33658:19
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at getTextDocument (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33652:12)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33669:42
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+(node:744430) UnhandledPromiseRejectionWarning: Error: DocumentNotFound
+    at new DocumentNotFoundException (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33645:28)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33658:19
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at getTextDocument (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33652:12)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:33669:42
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+(node:744430) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:744430) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:744430) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:744430) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2020-03-22T18:58:22.812Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T18:58:22.812Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/Downloads/FastMarching_Pierre_Glandon/FastMarching/CMakeLists.txt',
+  account: 'public'
+}
+2020-03-22T18:58:22.814Z grammarly:server:settings Error: System keychain unavailable
+    at Object.<anonymous> (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15757:23)
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8259:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8255:12)
+    at Object.findCredentials (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15755:16)
+    at /home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:15775:108
+    at step (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8285:23)
+    at Object.next (/home/pglandon/.vscode/extensions/znck.grammarly-0.7.0/out/server.js:8266:53)
+2020-03-22T18:58:22.814Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/Downloads/FastMarching_Pierre_Glandon/FastMarching/CMakeLists.txt',
+  account: 'public'
+}
+2020-03-22T18:58:22.819Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/Downloads/FastMarching_Pierre_Glandon/FastMarching/CMakeLists.txt'
+  },
+  diagnostics: []
+}
+2020-03-22T18:58:23.205Z grammarly:auth initial cookie [
+  'grauth=AABHpwD_sdeZ5sZYe7AES-ep6UsXDE7PSEj6KXeHcgye8L5-92UKpwfDxiD82O9vzf4dfEv5CgJ6Kwbu; Expires=Mon, 22 Mar 2021 17:58:21 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHp56rOczZv6Dyur10MvPu/zQgzj86SQht8w; Expires=Mon, 22 Mar 2021 17:58:21 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=ijkaa8jae63kb82; Expires=Wed, 20 Mar 2030 17:58:21 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T18:58:23.215Z grammarly:auth initial cookie [
+  'grauth=AABHp-nkiDqDcmswAceEvq9yD-2_ZlK8WPGwPI__4KA5Yv1OX8b0e-CM4oHu2k428QYv3FujF6w8unA-; Expires=Mon, 22 Mar 2021 17:58:21 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHpw12GGhiE1DmRhXynJUBYCwjl1FiBfMXBA; Expires=Mon, 22 Mar 2021 17:58:21 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=rinba8jae64s102; Expires=Wed, 20 Mar 2030 17:58:21 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-22T18:58:23.550Z grammarly:auth can continue as anonymous user
+2020-03-22T18:58:23.555Z grammarly:auth can continue as anonymous user
+2020-03-22T18:58:23.891Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0Rvd25sb2Fkcy9GYXN0TWFyY2hpbmdfUGllcnJlX0dsYW5kb24vRmFzdE1hcmNoaW5nL0NNYWtlTGlzdHMudHh0',
+  id: 0
+}
+2020-03-22T18:58:23.892Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0Rvd25sb2Fkcy9GYXN0TWFyY2hpbmdfUGllcnJlX0dsYW5kb24vRmFzdE1hcmNoaW5nL0NNYWtlTGlzdHMudHh0',
+  id: 0
+}
+2020-03-22T18:58:23.990Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T18:58:23.990Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T18:58:23.990Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'ijkaa8jae63kb82',
+  id: 2
+}
+2020-03-22T18:58:23.996Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-22T18:58:23.996Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-22T18:58:23.996Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'rinba8jae64s102',
+  id: 2
+}
+2020-03-22T18:58:24.104Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-22T18:58:24.105Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-22T18:58:24.110Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-22T18:58:24.110Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-22T18:58:24.112Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 55,
+  charsCount: 1091,
+  readabilityScore: -2,
+  action: 'text_info',
+  id: 0
+}
+2020-03-22T18:58:24.116Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 55,
+  charsCount: 1091,
+  readabilityScore: -2,
+  action: 'text_info',
+  id: 0
+}
+2020-03-22T18:58:24.118Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'Formatting',
+  pid: 1128918,
+  rid: 1128918,
+  sid: 557125,
+  begin: 175,
+  end: 179,
+  text: 'list',
+  group: 'Style',
+  pname: 'Style/Formatting/LowerCaseSentenceStart/LowercaseSentenceStart',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 175,
+  highlightEnd: 179,
+  highlightText: 'list',
+  replacements: [],
+  transformJson: { context: { s: 175, e: 186 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Conventions',
+    groupDescription: 'Checks spacing, capitalization, and dialect-specific spelling',
+    rank: 50,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Improper Formatting',
+  cost: 1,
+  action: 'alert',
+  id: 33
+}
+2020-03-22T18:58:24.119Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '33', id: 3 }
+2020-03-22T18:58:24.123Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'Formatting',
+  pid: 1128918,
+  rid: 1128918,
+  sid: 588713,
+  begin: 175,
+  end: 179,
+  text: 'list',
+  group: 'Style',
+  pname: 'Style/Formatting/LowerCaseSentenceStart/LowercaseSentenceStart',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 175,
+  highlightEnd: 179,
+  highlightText: 'list',
+  replacements: [],
+  transformJson: { context: { s: 175, e: 186 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Conventions',
+    groupDescription: 'Checks spacing, capitalization, and dialect-specific spelling',
+    rank: 50,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Improper Formatting',
+  cost: 1,
+  action: 'alert',
+  id: 33
+}
+2020-03-22T18:58:24.124Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '33', id: 3 }
+2020-03-22T18:58:24.202Z grammarly:host 🔻 { action: 'remove', id: 33 }
+2020-03-22T18:58:24.202Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-22T18:58:24.207Z grammarly:host 🔻 { action: 'remove', id: 33 }
+2020-03-22T18:58:24.208Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-22T18:58:28.118Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  score: 100,
+  outcomeScores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  generalScore: 100,
+  removed: [],
+  dialect: 'american',
+  foreign: false,
+  action: 'finished'
+}
+2020-03-22T18:58:28.122Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  score: 100,
+  outcomeScores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  generalScore: 100,
+  removed: [],
+  dialect: 'american',
+  foreign: false,
+  action: 'finished'
+}

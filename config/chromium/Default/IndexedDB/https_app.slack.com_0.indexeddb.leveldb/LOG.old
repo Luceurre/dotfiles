@@ -1,0 +1,6 @@
+2020/03/21-15:06:29.311 2f22 Reusing MANIFEST /home/pglandon/.config/chromium/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/21-15:06:29.311 2f22 Recovering log #3
+2020/03/21-15:06:29.323 2f22 Reusing old log /home/pglandon/.config/chromium/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000003.log 
+2020/03/21-15:06:31.949 7b73 Level-0 table #5: started
+2020/03/21-15:06:31.977 7b73 Level-0 table #5: 1557522 bytes OK
+2020/03/21-15:06:31.982 7b73 Delete type=0 #3

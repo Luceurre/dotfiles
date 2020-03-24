@@ -1,0 +1,242 @@
+[variant] Loaded new set of variants
+[kit] Successfully loaded 4 kits from /home/pglandon/.local/share/CMakeTools/cmake-tools-kits.json
+[main] Configuring folder: FastMarching_Initial 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -H/home/pglandon/Downloads/FastMarching_Initial -B/home/pglandon/Downloads/FastMarching_Initial/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[cmake] CMake Error at CMakeLists.txt:5 (find_package):
+[cmake]   By not providing "FindImagine.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "Imagine", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "Imagine" with any
+[cmake]   of the following names:
+[cmake] 
+[cmake]     ImagineConfig.cmake
+[cmake]     imagine-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "Imagine" to CMAKE_PREFIX_PATH or set
+[cmake]   "Imagine_DIR" to a directory containing one of the above files.  If
+[cmake]   "Imagine" provides a separate development package or SDK, be sure it has
+[cmake]   been installed.
+[cmake] 
+[cmake] 
+[main] Building folder: FastMarching_Initial 
+[main] Configuring folder: FastMarching_Initial 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -H/home/pglandon/Downloads/FastMarching_Initial -B/home/pglandon/Downloads/FastMarching_Initial/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] CMake Error at CMakeLists.txt:5 (find_package):
+[cmake]   By not providing "FindImagine.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "Imagine", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "Imagine" with any
+[cmake]   of the following names:
+[cmake] 
+[cmake]     ImagineConfig.cmake
+[cmake]     imagine-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "Imagine" to CMAKE_PREFIX_PATH or set
+[cmake]   "Imagine_DIR" to a directory containing one of the above files.  If
+[cmake]   "Imagine" provides a separate development package or SDK, be sure it has
+[cmake]   been installed.
+[cmake] 
+[cmake] 
+[cmake] -- Configuring incomplete, errors occurred!
+[main] Configuring folder: FastMarching_Initial 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -H/home/pglandon/Downloads/FastMarching_Initial -B/home/pglandon/Downloads/FastMarching_Initial/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] CMake Error at CMakeLists.txt:5 (find_package):
+[cmake]   By not providing "FindImagine.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "Imagine", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "Imagine" with any
+[cmake]   of the following names:
+[cmake] 
+[cmake]     ImagineConfig.cmake
+[cmake]     imagine-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "Imagine" to CMAKE_PREFIX_PATH or set
+[cmake]   "Imagine_DIR" to a directory containing one of the above files.  If
+[cmake]   "Imagine" provides a separate development package or SDK, be sure it has
+[cmake]   been installed.
+[cmake] 
+[cmake] 
+[cmake] -- Configuring incomplete, errors occurred!
+[main] Configuring folder: FastMarching_Initial 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -H/home/pglandon/Downloads/FastMarching_Initial -B/home/pglandon/Downloads/FastMarching_Initial/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Setting Imagine_DIR=/usr/local
+[cmake] -- The C compiler identification is GNU 9.3.0
+[cmake] -- The CXX compiler identification is GNU 9.3.0
+[cmake] -- Check for working C compiler: /usr/bin/gcc
+[cmake] -- Check for working C compiler: /usr/bin/gcc -- works
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Check for working CXX compiler: /usr/bin/g++
+[cmake] -- Check for working CXX compiler: /usr/bin/g++ -- works
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/FindOpenGL.cmake:275 (message):
+[cmake]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[cmake]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[cmake]   cmake_policy command to set the policy and suppress this warning.
+[cmake] 
+[cmake]   FindOpenGL found both a legacy GL library:
+[cmake] 
+[cmake]     OPENGL_gl_LIBRARY: /usr/lib/libGL.so
+[cmake] 
+[cmake]   and GLVND libraries for OpenGL and GLX:
+[cmake] 
+[cmake]     OPENGL_opengl_LIBRARY: /usr/lib/libOpenGL.so
+[cmake]     OPENGL_glx_LIBRARY: /usr/lib/libGLX.so
+[cmake] 
+[cmake]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[cmake]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[cmake] Call Stack (most recent call first):
+[cmake]   /usr/local/CMake/UseImagineOpenGL.cmake:5 (find_package)
+[cmake]   /usr/local/CMake/ImagineConfig.cmake:235 (include)
+[cmake]   /usr/local/CMake/UseImagineQt.cmake:40 (ImagineUseModules)
+[cmake]   /usr/local/CMake/ImagineConfig.cmake:235 (include)
+[cmake]   /usr/local/CMake/UseImagineGraphics.cmake:40 (ImagineUseModules)
+[cmake]   /usr/local/CMake/ImagineConfig.cmake:235 (include)
+[cmake]   /usr/local/CMake/UseImagineImages.cmake:30 (ImagineUseModules)
+[cmake]   /usr/local/CMake/ImagineConfig.cmake:235 (include)
+[cmake]   CMakeLists.txt:19 (ImagineUseModules)
+[cmake] This warning is for project developers.  Use -Wno-dev to suppress it.
+[cmake] 
+[cmake] -- Found OpenGL: /usr/lib/libOpenGL.so   
+[cmake] -- Configuring done
+[cmake] -- Generating done
+[cmake] -- Build files have been written to: /home/pglandon/Downloads/FastMarching_Initial/build
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [10/15   6% :: 0.389] Building CXX object CMakeFiles/distancePoint.dir/priorite.cpp.o
+[build] [11/15  13% :: 0.404] Building CXX object CMakeFiles/test_priorite.dir/priorite.cpp.o
+[build] [11/15  20% :: 0.431] Building CXX object CMakeFiles/geodesique.dir/priorite.cpp.o
+[build] [11/15  26% :: 0.660] Building CXX object CMakeFiles/test_priorite.dir/test_priorite.cpp.o
+[build] [12/15  33% :: 0.695] Building CXX object CMakeFiles/ombres.dir/priorite.cpp.o
+[build] [12/15  40% :: 0.761] Linking CXX executable test_priorite
+[build] [12/15  46% :: 1.164] Building CXX object CMakeFiles/distancePoint.dir/distancePoint.cpp.o
+[build] [12/15  53% :: 1.290] Building CXX object CMakeFiles/ombres.dir/fastMarching.cpp.o
+[build] [12/15  60% :: 1.389] Building CXX object CMakeFiles/ombres.dir/ombres.cpp.o
+[build] [13/15  66% :: 1.398] Building CXX object CMakeFiles/distancePoint.dir/fastMarching.cpp.o
+[build] [14/15  73% :: 1.454] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] [14/15  80% :: 1.512] Building CXX object CMakeFiles/geodesique.dir/fastMarching.cpp.o
+[build] [15/15  86% :: 1.768] Linking CXX executable ombres
+[build] [15/15  93% :: 1.771] Linking CXX executable distancePoint
+[build] [15/15 100% :: 1.871] Linking CXX executable geodesique
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [1/2  50% :: 0.854] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] [2/2 100% :: 1.158] Linking CXX executable geodesique
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [1/2  50% :: 0.844] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] [2/2 100% :: 1.152] Linking CXX executable geodesique
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [1/2  50% :: 0.829] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] [2/2 100% :: 1.144] Linking CXX executable geodesique
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [1/2  50% :: 0.879] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] [2/2 100% :: 1.189] Linking CXX executable geodesique
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [1/2  50% :: 0.852] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] [2/2 100% :: 1.166] Linking CXX executable geodesique
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [1/2  50% :: 0.854] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] [2/2 100% :: 1.155] Linking CXX executable geodesique
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [6/9  11% :: 1.047] Building CXX object CMakeFiles/distancePoint.dir/distancePoint.cpp.o
+[build] [6/9  22% :: 1.118] Building CXX object CMakeFiles/ombres.dir/ombres.cpp.o
+[build] [6/9  33% :: 1.119] Building CXX object CMakeFiles/geodesique.dir/fastMarching.cpp.o
+[build] [6/9  44% :: 1.157] Building CXX object CMakeFiles/ombres.dir/fastMarching.cpp.o
+[build] [7/9  55% :: 1.165] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] [8/9  66% :: 1.167] Building CXX object CMakeFiles/distancePoint.dir/fastMarching.cpp.o
+[build] [9/9  77% :: 1.530] Linking CXX executable ombres
+[build] [9/9  88% :: 1.540] Linking CXX executable geodesique
+[build] [9/9 100% :: 1.544] Linking CXX executable distancePoint
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [6/9  11% :: 0.867] Building CXX object CMakeFiles/geodesique.dir/fastMarching.cpp.o
+[build] FAILED: CMakeFiles/geodesique.dir/fastMarching.cpp.o 
+[build] /usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtOpenGL -g   -DSRCDIR="/home/pglandon/Downloads/FastMarching_Initial" -fPIC -MD -MT CMakeFiles/geodesique.dir/fastMarching.cpp.o -MF CMakeFiles/geodesique.dir/fastMarching.cpp.o.d -o CMakeFiles/geodesique.dir/fastMarching.cpp.o -c ../fastMarching.cpp
+[build] ../fastMarching.cpp: In function ‘Imagine::Image<float> fastMarching(const Imagine::Image<float>&, const std::vector<PointDist>&)’:
+[build] ../fastMarching.cpp:128:57: error: too many arguments to function ‘float calcDistance(Imagine::Image<float>&, const Imagine::Image<float>&, int, int)’
+[build]   128 |                 D(q.i,q.j)=calcDistance(D,W,q.i,q.j,posq);
+[build]       |                                                         ^
+[build] ../fastMarching.cpp:34:7: note: declared here
+[build]    34 | float calcDistance(Image<float>& D, const Image<float>& W, int x, int y) {
+[build]       |       ^~~~~~~~~~~~
+[build] [6/9  22% :: 0.970] Building CXX object CMakeFiles/distancePoint.dir/fastMarching.cpp.o
+[build] FAILED: CMakeFiles/distancePoint.dir/fastMarching.cpp.o 
+[build] /usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtOpenGL -g   -DSRCDIR="/home/pglandon/Downloads/FastMarching_Initial" -fPIC -MD -MT CMakeFiles/distancePoint.dir/fastMarching.cpp.o -MF CMakeFiles/distancePoint.dir/fastMarching.cpp.o.d -o CMakeFiles/distancePoint.dir/fastMarching.cpp.o -c ../fastMarching.cpp
+[build] ../fastMarching.cpp: In function ‘Imagine::Image<float> fastMarching(const Imagine::Image<float>&, const std::vector<PointDist>&)’:
+[build] ../fastMarching.cpp:128:57: error: too many arguments to function ‘float calcDistance(Imagine::Image<float>&, const Imagine::Image<float>&, int, int)’
+[build]   128 |                 D(q.i,q.j)=calcDistance(D,W,q.i,q.j,posq);
+[build]       |                                                         ^
+[build] ../fastMarching.cpp:34:7: note: declared here
+[build]    34 | float calcDistance(Image<float>& D, const Image<float>& W, int x, int y) {
+[build]       |       ^~~~~~~~~~~~
+[build] [6/9  33% :: 0.972] Building CXX object CMakeFiles/distancePoint.dir/distancePoint.cpp.o
+[build] [6/9  44% :: 0.990] Building CXX object CMakeFiles/ombres.dir/fastMarching.cpp.o
+[build] FAILED: CMakeFiles/ombres.dir/fastMarching.cpp.o 
+[build] /usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtOpenGL -g   -DSRCDIR="/home/pglandon/Downloads/FastMarching_Initial" -fPIC -MD -MT CMakeFiles/ombres.dir/fastMarching.cpp.o -MF CMakeFiles/ombres.dir/fastMarching.cpp.o.d -o CMakeFiles/ombres.dir/fastMarching.cpp.o -c ../fastMarching.cpp
+[build] ../fastMarching.cpp: In function ‘Imagine::Image<float> fastMarching(const Imagine::Image<float>&, const std::vector<PointDist>&)’:
+[build] ../fastMarching.cpp:128:57: error: too many arguments to function ‘float calcDistance(Imagine::Image<float>&, const Imagine::Image<float>&, int, int)’
+[build]   128 |                 D(q.i,q.j)=calcDistance(D,W,q.i,q.j,posq);
+[build]       |                                                         ^
+[build] ../fastMarching.cpp:34:7: note: declared here
+[build]    34 | float calcDistance(Image<float>& D, const Image<float>& W, int x, int y) {
+[build]       |       ^~~~~~~~~~~~
+[build] [6/9  55% :: 1.069] Building CXX object CMakeFiles/ombres.dir/ombres.cpp.o
+[build] [6/9  66% :: 1.217] Building CXX object CMakeFiles/geodesique.dir/geodesique.cpp.o
+[build] ninja: build stopped: subcommand failed.
+[build] Build finished with exit code 1
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [3/6  16% :: 0.805] Building CXX object CMakeFiles/geodesique.dir/fastMarching.cpp.o
+[build] [4/6  33% :: 0.812] Building CXX object CMakeFiles/distancePoint.dir/fastMarching.cpp.o
+[build] [5/6  50% :: 0.825] Building CXX object CMakeFiles/ombres.dir/fastMarching.cpp.o
+[build] [6/6  66% :: 1.176] Linking CXX executable geodesique
+[build] [6/6  83% :: 1.185] Linking CXX executable distancePoint
+[build] [6/6 100% :: 1.197] Linking CXX executable ombres
+[build] Build finished with exit code 0
+[main] Building folder: FastMarching_Initial 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/pglandon/Downloads/FastMarching_Initial/build --config Debug --target all -- -j 10
+[build] [3/6  16% :: 0.817] Building CXX object CMakeFiles/geodesique.dir/fastMarching.cpp.o
+[build] [4/6  33% :: 0.839] Building CXX object CMakeFiles/ombres.dir/fastMarching.cpp.o
+[build] [5/6  50% :: 0.855] Building CXX object CMakeFiles/distancePoint.dir/fastMarching.cpp.o
+[build] [6/6  66% :: 1.200] Linking CXX executable geodesique
+[build] [6/6  83% :: 1.214] Linking CXX executable ombres
+[build] [6/6 100% :: 1.224] Linking CXX executable distancePoint
+[build] Build finished with exit code 0

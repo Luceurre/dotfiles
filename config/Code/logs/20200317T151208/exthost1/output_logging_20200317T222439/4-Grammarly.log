@@ -1,0 +1,535 @@
+2020-03-17T21:24:39.933Z grammarly:server Server Ready.
+2020-03-17T21:24:50.705Z grammarly:host {
+  type: 'INIT',
+  documentId: 'file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex',
+  account: 'public'
+}
+2020-03-17T21:24:50.968Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+  },
+  diagnostics: []
+}
+2020-03-17T21:24:51.115Z grammarly:auth initial cookie [
+  'grauth=AABHosYBbPSE1ocj3rc9_ZiK_MzELHFVYLUPT3GJfRHeDZz_52wnbXP6PxCWd4PEmxlaEl2lioZp7FEP; Expires=Wed, 17 Mar 2021 21:24:49 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; HttpOnly; SameSite=None',
+  'csrf-token=AABHouqCmsFC+6kWK1W7EAoVf2cxAFoEBgOBiw; Expires=Wed, 17 Mar 2021 21:24:49 GMT; Max-Age=31536000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'gnar_containerId=edsda7qa328ufg2; Expires=Fri, 15 Mar 2030 21:24:49 GMT; Max-Age=315360000; Domain=grammarly.com; Path=/; Secure; SameSite=None',
+  'funnelType=free; Max-Age=108000; Domain=grammarly.com; Path=/',
+  'browser_info=CHROME:79:COMPUTER:SUPPORTED:FREEMIUM:MAC_OS_X:MAC_OS_X; Max-Age=3600; Domain=grammarly.com; Path=/',
+  'redirect_location=eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL3d3dy5ncmFtbWFybHkuY29tL3NpZ25pbiJ9; Max-Age=3600; Domain=grammarly.com; Path=/; Secure; HttpOnly'
+]
+2020-03-17T21:24:51.469Z grammarly:auth can continue as anonymous user
+2020-03-17T21:24:51.730Z grammarly:server onCodeAction {
+  textDocument: {
+    uri: 'file:///home/pglandon/JuliaProjects/getting-started/pierre/rapport.tex'
+  },
+  diagnostics: []
+}
+2020-03-17T21:24:51.867Z grammarly:host 🔺 {
+  action: 'start',
+  client: 'denali_editor',
+  clientSubType: 'general',
+  clientSupports: [
+    'text_info',
+    'free_inline_advanced_alerts',
+    'readability_check',
+    'sentence_variety_check',
+    'filler_words_check',
+    'alerts_update',
+    'alerts_changes',
+    'free_clarity_alerts',
+    'super_alerts',
+    'consistency_check',
+    'hidden_alerts_update',
+    'set_goals_link'
+  ],
+  clientVersion: '1.5.43-2114+master',
+  dialect: 'american',
+  documentContext: {
+    audience: 'knowledgeable',
+    dialect: 'american',
+    domain: 'general',
+    emotion: undefined,
+    emotions: [],
+    goals: [],
+    style: undefined
+  },
+  docid: 'ZmlsZTovLy9ob21lL3BnbGFuZG9uL0p1bGlhUHJvamVjdHMvZ2V0dGluZy1zdGFydGVkL3BpZXJyZS9yYXBwb3J0LnRleA==',
+  id: 0
+}
+2020-03-17T21:24:51.976Z grammarly:host 🔻 { sid: 1, userMutedCategories: [], action: 'start', id: 0 }
+2020-03-17T21:24:51.976Z grammarly:host 🔺 {
+  action: 'submit_ot',
+  doc_len: 0,
+  rev: 0,
+  deltas: [ { ops: [Array] } ],
+  id: 1
+}
+2020-03-17T21:24:51.977Z grammarly:host 🔺 {
+  action: 'option',
+  name: 'gnar_containerId',
+  value: 'edsda7qa328ufg2',
+  id: 2
+}
+2020-03-17T21:24:52.136Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  wordsCount: 352,
+  charsCount: 2484,
+  readabilityScore: 61,
+  action: 'text_info',
+  id: 0
+}
+2020-03-17T21:24:52.136Z grammarly:host 🔻 { rev: 0, action: 'submit_ot', id: 1 }
+2020-03-17T21:24:52.137Z grammarly:host 🔻 { action: 'option', id: 2 }
+2020-03-17T21:24:52.161Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'WordChoice',
+  pid: 1093668,
+  rid: 1093668,
+  sid: 3853214,
+  begin: 1964,
+  end: 1968,
+  text: 'main',
+  group: 'Enhancement',
+  pname: 'Enhancement/WordChoice/Overused/OverusedWord',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 1964,
+  highlightEnd: 1968,
+  highlightText: 'main',
+  replacements: [],
+  transformJson: { context: { s: 1958, e: 1978 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Vocabulary',
+    groupDescription: 'Replaces weak words with more precise synonyms',
+    rank: 130,
+    outcome: 'Engagement',
+    outcomeDescription: 'Identifies monotonous sections of text and suggests more precise synonyms for weak, overused, or repeated words.',
+    outcomeRank: 30
+  },
+  categoryHuman: 'Word Choice',
+  cost: 1,
+  action: 'alert',
+  id: 42
+}
+2020-03-17T21:24:52.161Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '42', id: 3 }
+2020-03-17T21:24:52.245Z grammarly:host 🔻 { action: 'remove', id: 42 }
+2020-03-17T21:24:52.247Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 3
+}
+2020-03-17T21:24:52.364Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'CompPunct',
+  pid: 1142937,
+  rid: 1142937,
+  sid: 3853214,
+  begin: 2403,
+  end: 2403,
+  text: '',
+  group: 'Punctuation',
+  pname: 'Punctuation/CompPunct/NoCommaWithCC/NPVPandNPVP',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 2404,
+  highlightEnd: 2407,
+  highlightText: 'but',
+  replacements: [],
+  transformJson: { context: { s: 2384, e: 2424 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Punctuation',
+    groupDescription: 'Corrects missing and misused punctuation',
+    rank: 30,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Punctuation in Compound/Complex Sentences',
+  cost: 1,
+  action: 'alert',
+  id: 43
+}
+2020-03-17T21:24:52.365Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '43', id: 4 }
+2020-03-17T21:24:52.447Z grammarly:host 🔻 { action: 'remove', id: 43 }
+2020-03-17T21:24:52.448Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 4
+}
+2020-03-17T21:24:52.472Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'PassiveVoice',
+  pid: 780623,
+  rid: 780623,
+  sid: 3853214,
+  begin: 849,
+  end: 871,
+  text: 'be easily parallelized',
+  group: 'Style',
+  pname: 'Style/PassiveVoice/NoObj/General',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 849,
+  highlightEnd: 871,
+  highlightText: 'be easily parallelized',
+  replacements: [],
+  transformJson: { context: { s: 841, e: 877 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Clarity',
+    groupDescription: 'Identifies confusing sentences and overlong paragraphs',
+    rank: 110,
+    outcome: 'Clarity',
+    outcomeDescription: 'Identifies confusing, hard-to-read and overlong sentences. Eliminates wordiness and redundancy.',
+    outcomeRank: 20,
+    userMuteCategory: 'PassiveVoice',
+    userMuteCategoryDescription: 'Passive voice'
+  },
+  categoryHuman: 'Passive Voice Misuse',
+  cost: 1,
+  action: 'alert',
+  id: 44
+}
+2020-03-17T21:24:52.473Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '44', id: 5 }
+2020-03-17T21:24:52.556Z grammarly:host 🔻 { action: 'remove', id: 44 }
+2020-03-17T21:24:52.557Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 5
+}
+2020-03-17T21:24:52.754Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'CompPunct',
+  pid: 1168221,
+  rid: 1168221,
+  sid: 3853214,
+  begin: 1869,
+  end: 1869,
+  text: '',
+  group: 'Punctuation',
+  pname: 'Punctuation/CompPunct/MissingComma/UnderpassMissComma',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 1867,
+  highlightEnd: 1869,
+  highlightText: '2D',
+  replacements: [],
+  transformJson: { context: { s: 1864, e: 1878 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Punctuation',
+    groupDescription: 'Corrects missing and misused punctuation',
+    rank: 30,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Punctuation in Compound/Complex Sentences',
+  cost: 1,
+  action: 'alert',
+  id: 45
+}
+2020-03-17T21:24:52.754Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '45', id: 6 }
+2020-03-17T21:24:52.755Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'CompPunct',
+  pid: 1168221,
+  rid: 1168221,
+  sid: 3853214,
+  begin: 1978,
+  end: 1978,
+  text: '',
+  group: 'Punctuation',
+  pname: 'Punctuation/CompPunct/MissingComma/UnderpassMissComma',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 1979,
+  highlightEnd: 1988,
+  highlightText: 'therefore',
+  replacements: [],
+  transformJson: { context: { s: 1969, e: 1996 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Punctuation',
+    groupDescription: 'Corrects missing and misused punctuation',
+    rank: 30,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Punctuation in Compound/Complex Sentences',
+  cost: 1,
+  action: 'alert',
+  id: 46
+}
+2020-03-17T21:24:52.755Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '46', id: 7 }
+2020-03-17T21:24:52.756Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'CompPunct',
+  pid: 1168221,
+  rid: 1168221,
+  sid: 3853214,
+  begin: 1988,
+  end: 1988,
+  text: '',
+  group: 'Punctuation',
+  pname: 'Punctuation/CompPunct/MissingComma/UnderpassMissComma',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 1989,
+  highlightEnd: 1991,
+  highlightText: 'to',
+  replacements: [],
+  transformJson: { context: { s: 1975, e: 1998 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Punctuation',
+    groupDescription: 'Corrects missing and misused punctuation',
+    rank: 30,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Punctuation in Compound/Complex Sentences',
+  cost: 1,
+  action: 'alert',
+  id: 47
+}
+2020-03-17T21:24:52.757Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '47', id: 8 }
+2020-03-17T21:24:52.757Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'CompPunct',
+  pid: 1142937,
+  rid: 1142937,
+  sid: 3853214,
+  begin: 2099,
+  end: 2099,
+  text: '',
+  group: 'Punctuation',
+  pname: 'Punctuation/CompPunct/NoCommaWithCC/NPVPandNPVP',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 2100,
+  highlightEnd: 2103,
+  highlightText: 'but',
+  replacements: [],
+  transformJson: { context: { s: 2080, e: 2110 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Punctuation',
+    groupDescription: 'Corrects missing and misused punctuation',
+    rank: 30,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Punctuation in Compound/Complex Sentences',
+  cost: 1,
+  action: 'alert',
+  id: 50
+}
+2020-03-17T21:24:52.758Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '50', id: 9 }
+2020-03-17T21:24:52.759Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'CompPunct',
+  pid: 1168221,
+  rid: 1168221,
+  sid: 3853214,
+  begin: 2147,
+  end: 2147,
+  text: '',
+  group: 'Punctuation',
+  pname: 'Punctuation/CompPunct/MissingComma/UnderpassMissComma',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 2148,
+  highlightEnd: 2153,
+  highlightText: 'which',
+  replacements: [],
+  transformJson: { context: { s: 2139, e: 2161 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Punctuation',
+    groupDescription: 'Corrects missing and misused punctuation',
+    rank: 30,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Punctuation in Compound/Complex Sentences',
+  cost: 1,
+  action: 'alert',
+  id: 49
+}
+2020-03-17T21:24:52.759Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '49', id: 10 }
+2020-03-17T21:24:52.760Z grammarly:host 🔻 {
+  hidden: true,
+  category: 'CompPunct',
+  pid: 1192965,
+  rid: 1192965,
+  sid: 3853214,
+  begin: 2264,
+  end: 2264,
+  text: '',
+  group: 'Punctuation',
+  pname: 'Punctuation/CompPunct/OPCMissingComma/OPCMissComma',
+  phash: '00000000000000000000000000000001',
+  pversion: '0.0.1',
+  rev: 0,
+  highlightBegin: 2258,
+  highlightEnd: 2264,
+  highlightText: 'matrix',
+  replacements: [],
+  transformJson: { context: { s: 2251, e: 2273 }, highlights: [ [Object] ] },
+  impact: 'advanced',
+  extra_properties: {},
+  cardLayout: {
+    category: 'General',
+    group: 'Punctuation',
+    groupDescription: 'Corrects missing and misused punctuation',
+    rank: 30,
+    outcome: 'Correctness',
+    outcomeDescription: 'Corrects misspellings, grammatical errors, missing and misused punctuation. Checks for natural phrasing and good word choice.',
+    outcomeRank: 10
+  },
+  categoryHuman: 'Punctuation in Compound/Complex Sentences',
+  cost: 1,
+  action: 'alert',
+  id: 48
+}
+2020-03-17T21:24:52.760Z grammarly:host 🔺 { action: 'feedback', type: 'IGNORE', alertId: '48', id: 11 }
+2020-03-17T21:24:52.836Z grammarly:host 🔻 { action: 'remove', id: 45 }
+2020-03-17T21:24:52.841Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 0.98,
+    Correctness: 0.95,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 6
+}
+2020-03-17T21:24:52.842Z grammarly:host 🔻 { action: 'remove', id: 46 }
+2020-03-17T21:24:52.846Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 0.99,
+    Correctness: 0.95,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 7
+}
+2020-03-17T21:24:52.846Z grammarly:host 🔻 { action: 'remove', id: 47 }
+2020-03-17T21:24:52.850Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 0.99,
+    Correctness: 0.95,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 8
+}
+2020-03-17T21:24:52.850Z grammarly:host 🔻 { action: 'remove', id: 50 }
+2020-03-17T21:24:52.852Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 0.99,
+    Correctness: 0.95,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 9
+}
+2020-03-17T21:24:52.853Z grammarly:host 🔻 { action: 'remove', id: 49 }
+2020-03-17T21:24:52.854Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 0.99,
+    Correctness: 0.95,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 10
+}
+2020-03-17T21:24:52.854Z grammarly:host 🔻 { action: 'remove', id: 48 }
+2020-03-17T21:24:52.855Z grammarly:host 🔻 {
+  scores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  action: 'feedback',
+  id: 11
+}
+2020-03-17T21:24:56.158Z grammarly:host 🔻 {
+  sid: 1,
+  rev: 0,
+  score: 100,
+  outcomeScores: {
+    Engagement: 1,
+    GeneralScore: 1,
+    Correctness: 1,
+    Tone: 1,
+    Clarity: 1
+  },
+  generalScore: 100,
+  removed: [],
+  dialect: 'american',
+  foreign: false,
+  action: 'finished'
+}

@@ -1,0 +1,26 @@
+2020/03/23-13:34:13.741 87e6f Reusing MANIFEST /home/pglandon/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2020/03/23-13:34:13.741 87e6f Recovering log #357
+2020/03/23-13:34:13.741 87e6f Reusing old log /home/pglandon/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000357.log 
+2020/03/23-13:35:14.629 90d50 Level-0 table #361: started
+2020/03/23-13:35:14.693 90d50 Level-0 table #361: 4948912 bytes OK
+2020/03/23-13:35:14.698 90d50 Delete type=0 #357
+2020/03/23-13:51:36.143 90d50 Level-0 table #363: started
+2020/03/23-13:51:36.221 90d50 Level-0 table #363: 4949070 bytes OK
+2020/03/23-13:51:36.227 90d50 Delete type=0 #360
+2020/03/23-14:35:14.528 90d50 Level-0 table #365: started
+2020/03/23-14:35:14.592 90d50 Level-0 table #365: 4948901 bytes OK
+2020/03/23-14:35:14.598 90d50 Delete type=0 #362
+2020/03/23-14:35:14.599 90d50 Compacting 4@0 + 2@1 files
+2020/03/23-14:35:14.717 90d50 Generated table #366@0: 1 keys, 4948826 bytes
+2020/03/23-14:35:14.723 90d50 Generated table #367@0: 3 keys, 462 bytes
+2020/03/23-14:35:14.723 90d50 Compacted 4@0 + 2@1 files => 4949288 bytes
+2020/03/23-14:35:14.730 90d50 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/03/23-14:35:14.730 90d50 Delete type=2 #361
+2020/03/23-14:35:14.730 90d50 Delete type=2 #356
+2020/03/23-14:35:14.730 90d50 Delete type=2 #358
+2020/03/23-14:35:14.730 90d50 Delete type=2 #355
+2020/03/23-14:35:14.730 90d50 Delete type=2 #365
+2020/03/23-14:35:14.730 90d50 Delete type=2 #363
+2020/03/23-14:37:52.199 90d50 Level-0 table #369: started
+2020/03/23-14:37:52.261 90d50 Level-0 table #369: 4948605 bytes OK
+2020/03/23-14:37:52.267 90d50 Delete type=0 #364

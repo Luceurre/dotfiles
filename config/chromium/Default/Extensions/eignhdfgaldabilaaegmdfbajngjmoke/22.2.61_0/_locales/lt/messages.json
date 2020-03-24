@@ -1,0 +1,356 @@
+{
+   "cj_i18n_00000": {
+      "message": "The easiest access to the Google universe"
+   },
+   "cj_i18n_00017": {
+      "message": "Vaizdai"
+   },
+   "cj_i18n_00083": {
+      "message": "Viską"
+   },
+   "cj_i18n_00085": {
+      "message": "Paieška"
+   },
+   "cj_i18n_00107": {
+      "message": "Viską"
+   },
+   "cj_i18n_00112": {
+      "message": "Svetainės"
+   },
+   "cj_i18n_00122": {
+      "message": "Failai"
+   },
+   "cj_i18n_00155": {
+      "message": "Istorija"
+   },
+   "cj_i18n_00165": {
+      "message": "Sausis"
+   },
+   "cj_i18n_00166": {
+      "message": "Vasaris"
+   },
+   "cj_i18n_00167": {
+      "message": "Kovas"
+   },
+   "cj_i18n_00168": {
+      "message": "Balandis"
+   },
+   "cj_i18n_00169": {
+      "message": "Gegužė"
+   },
+   "cj_i18n_00170": {
+      "message": "Birželis"
+   },
+   "cj_i18n_00171": {
+      "message": "Liepa"
+   },
+   "cj_i18n_00172": {
+      "message": "Rugpjūtis"
+   },
+   "cj_i18n_00173": {
+      "message": "Rugsėjis"
+   },
+   "cj_i18n_00174": {
+      "message": "Spalis"
+   },
+   "cj_i18n_00175": {
+      "message": "Lapkritis"
+   },
+   "cj_i18n_00176": {
+      "message": "Gruodis"
+   },
+   "cj_i18n_00216": {
+      "message": "Programos"
+   },
+   "cj_i18n_00226": {
+      "message": "Vakar"
+   },
+   "cj_i18n_00291": {
+      "message": "Pagrindinis"
+   },
+   "cj_i18n_00292": {
+      "message": "Kolekcijos"
+   },
+   "cj_i18n_00293": {
+      "message": "Bendruomenės"
+   },
+   "cj_i18n_00294": {
+      "message": "Profilis"
+   },
+   "cj_i18n_00295": {
+      "message": "Žmonės"
+   },
+   "cj_i18n_00296": {
+      "message": "Pranešimai"
+   },
+   "cj_i18n_00298": {
+      "message": "Nustatymai"
+   },
+   "cj_i18n_00302": {
+      "message": "Kalendorius"
+   },
+   "cj_i18n_00314": {
+      "message": "Kontaktai"
+   },
+   "cj_i18n_00331": {
+      "message": "Viskas"
+   },
+   "cj_i18n_00390": {
+      "message": "Diskas"
+   },
+   "cj_i18n_00391": {
+      "message": "Dokumentai"
+   },
+   "cj_i18n_00412": {
+      "message": "Finansai"
+   },
+   "cj_i18n_00414": {
+      "message": "Skrydžiai"
+   },
+   "cj_i18n_00418": {
+      "message": "Grupės"
+   },
+   "cj_i18n_00423": {
+      "message": "Žemėlapiai"
+   },
+   "cj_i18n_00425": {
+      "message": "Naujienos"
+   },
+   "cj_i18n_00427": {
+      "message": "Patentai"
+   },
+   "cj_i18n_00429": {
+      "message": "Nuotraukos"
+   },
+   "cj_i18n_00431": {
+      "message": "„Play“ muzika"
+   },
+   "cj_i18n_00434": {
+      "message": "Paieška"
+   },
+   "cj_i18n_00435": {
+      "message": "Apsipirkimas"
+   },
+   "cj_i18n_00438": {
+      "message": "Žinynas"
+   },
+   "cj_i18n_00440": {
+      "message": "Vertėjas"
+   },
+   "cj_i18n_00441": {
+      "message": "Tendencijos"
+   },
+   "cj_i18n_00460": {
+      "message": "Knygos"
+   },
+   "cj_i18n_00462": {
+      "message": "„Chrome“ internetinė parduotuvė"
+   },
+   "cj_i18n_00464": {
+      "message": "Plėtiniai"
+   },
+   "cj_i18n_00465": {
+      "message": "Temos"
+   },
+   "cj_i18n_00481": {
+      "message": "Paskyra"
+   },
+   "cj_i18n_00484": {
+      "message": "Įvykiai"
+   },
+   "cj_i18n_00488": {
+      "message": "Vaizdai"
+   },
+   "cj_i18n_00500": {
+      "message": "Ieškoti nustatymų"
+   },
+   "cj_i18n_00509": {
+      "message": "Vaizdo įrašai"
+   },
+   "cj_i18n_00579": {
+      "message": "„Chrome“"
+   },
+   "cj_i18n_00603": {
+      "message": "Sinchronizavimas"
+   },
+   "cj_i18n_00626": {
+      "message": "Sukurti"
+   },
+   "cj_i18n_00800": {
+      "message": "Išsaugoti slaptažodžiai"
+   },
+   "cj_i18n_00838": {
+      "message": "Apie"
+   },
+   "cj_i18n_00856": {
+      "message": "„Chromium“ OS"
+   },
+   "cj_i18n_00878": {
+      "message": "Pritaikymas neįgaliesiems"
+   },
+   "cj_i18n_00901": {
+      "message": "Privatumas"
+   },
+   "cj_i18n_00930": {
+      "message": "Bandymai"
+   },
+   "cj_i18n_01126": {
+      "message": "Leidimai"
+   },
+   "cj_i18n_01161": {
+      "message": "Peržiūra"
+   },
+   "cj_i18n_01174": {
+      "message": "Įkeliama"
+   },
+   "cj_i18n_01176": {
+      "message": "Bandyti dar kartą"
+   },
+   "cj_i18n_01178": {
+      "message": "Tęsti"
+   },
+   "cj_i18n_01253": {
+      "message": "Šiandien"
+   },
+   "cj_i18n_01269": {
+      "message": "Vaizdai"
+   },
+   "cj_i18n_01344": {
+      "message": "Automatinis atpažinimas"
+   },
+   "cj_i18n_01351": {
+      "message": "Sužinokite daugiau"
+   },
+   "cj_i18n_01360": {
+      "message": "Bendrinti"
+   },
+   "cj_i18n_01363": {
+      "message": "Įrašyti"
+   },
+   "cj_i18n_01403": {
+      "message": "Bandymai"
+   },
+   "cj_i18n_01440": {
+      "message": "Nuostatos"
+   },
+   "cj_i18n_01505": {
+      "message": "Google Paskyra"
+   },
+   "cj_i18n_01506": {
+      "message": "Paskyra"
+   },
+   "cj_i18n_01507": {
+      "message": "Atsijungti"
+   },
+   "cj_i18n_01518": {
+      "message": "Adresai"
+   },
+   "cj_i18n_01532": {
+      "message": "Žinynas"
+   },
+   "cj_i18n_01544": {
+      "message": "Prisijungti"
+   },
+   "cj_i18n_01550": {
+      "message": "Įtraukti šį puslapį į žymas"
+   },
+   "cj_i18n_01563": {
+      "message": "Pašalinti"
+   },
+   "cj_i18n_01588": {
+      "message": "Išplėstiniai"
+   },
+   "cj_i18n_01659": {
+      "message": "Atšaukti"
+   },
+   "cj_i18n_01692": {
+      "message": "Naršoma po istoriją"
+   },
+   "cj_i18n_01794": {
+      "message": "Aplankas"
+   },
+   "cj_i18n_01807": {
+      "message": "Rekomenduojama"
+   },
+   "cj_i18n_01940": {
+      "message": "Pervadinti"
+   },
+   "cj_i18n_01943": {
+      "message": "Failo pavadinimas"
+   },
+   "cj_i18n_01990": {
+      "message": "Vardas"
+   },
+   "cj_i18n_02163": {
+      "message": "Sveiki!"
+   },
+   "cj_i18n_02543": {
+      "message": "Spausdinti"
+   },
+   "cj_i18n_02717": {
+      "message": "Neprisijungta"
+   },
+   "cj_i18n_04577": {
+      "message": "Redaguoti žymas"
+   },
+   "cj_i18n_05629": {
+      "message": "Redaguoti"
+   },
+   "cj_i18n_06248": {
+      "message": "Pir"
+   },
+   "cj_i18n_06249": {
+      "message": "Ant"
+   },
+   "cj_i18n_06250": {
+      "message": "Tre"
+   },
+   "cj_i18n_06251": {
+      "message": "Ket"
+   },
+   "cj_i18n_06252": {
+      "message": "Pen"
+   },
+   "cj_i18n_06253": {
+      "message": "Šeš"
+   },
+   "cj_i18n_06254": {
+      "message": "Sek"
+   },
+   "cj_i18n_06255": {
+      "message": "Sau"
+   },
+   "cj_i18n_06256": {
+      "message": "Vas"
+   },
+   "cj_i18n_06257": {
+      "message": "Kov"
+   },
+   "cj_i18n_06258": {
+      "message": "Bal"
+   },
+   "cj_i18n_06259": {
+      "message": "Geg"
+   },
+   "cj_i18n_06260": {
+      "message": "Bir"
+   },
+   "cj_i18n_06261": {
+      "message": "Lie"
+   },
+   "cj_i18n_06262": {
+      "message": "Rgp"
+   },
+   "cj_i18n_06263": {
+      "message": "Rgs"
+   },
+   "cj_i18n_06264": {
+      "message": "Spa"
+   },
+   "cj_i18n_06265": {
+      "message": "Lap"
+   },
+   "cj_i18n_06266": {
+      "message": "Grd"
+   }
+}

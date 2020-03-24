@@ -1,0 +1,26 @@
+[2020-03-17 15:12:12.282] [sharedprocess] [info] main {"machineId":"275fd99a8e9156d080baef52a18c9f7d83c358ed07e596f9e21ed2e5b280d345","windowId":2}
+[2020-03-17 15:12:52.303] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-03-17 19:02:19.748] [sharedprocess] [info] Installing extension: james-yu.latex-workshop
+[2020-03-17 19:02:20.333] [sharedprocess] [info] Downloaded extension: james-yu.latex-workshop /tmp/48f99ec0-78fb-4180-951b-26538df6e5ee
+[2020-03-17 19:02:22.396] [sharedprocess] [info] Installing extension: tecosaur.latex-utilities
+[2020-03-17 19:02:22.587] [sharedprocess] [info] Downloaded extension: tecosaur.latex-utilities /tmp/f08d1ac9-8e3d-43e1-81b8-9a1ccd965ccd
+[2020-03-17 19:02:23.685] [sharedprocess] [info] Extracted extension to /home/pglandon/.vscode/extensions/.tecosaur.latex-utilities-0.3.6: tecosaur.latex-utilities
+[2020-03-17 19:02:23.685] [sharedprocess] [info] Renamed to /home/pglandon/.vscode/extensions/tecosaur.latex-utilities-0.3.6
+[2020-03-17 19:02:23.687] [sharedprocess] [info] Installation completed. tecosaur.latex-utilities
+[2020-03-17 19:02:28.855] [sharedprocess] [info] Extracted extension to /home/pglandon/.vscode/extensions/.james-yu.latex-workshop-8.7.2: james-yu.latex-workshop
+[2020-03-17 19:02:28.869] [sharedprocess] [info] Renamed to /home/pglandon/.vscode/extensions/james-yu.latex-workshop-8.7.2
+[2020-03-17 19:02:28.872] [sharedprocess] [info] Installation completed. james-yu.latex-workshop
+[2020-03-17 19:02:28.885] [sharedprocess] [info] Extensions installed successfully: james-yu.latex-workshop
+[2020-03-17 19:02:28.889] [sharedprocess] [info] Extensions installed successfully: tecosaur.latex-utilities
+[2020-03-17 19:21:59.918] [sharedprocess] [info] Installing extension: znck.grammarly
+[2020-03-17 19:22:00.174] [sharedprocess] [info] Downloaded extension: znck.grammarly /tmp/ba2656d8-baca-46f7-8fda-2ee9ed9d113e
+[2020-03-17 19:22:00.231] [sharedprocess] [info] Extracted extension to /home/pglandon/.vscode/extensions/.znck.grammarly-0.6.2: znck.grammarly
+[2020-03-17 19:22:00.232] [sharedprocess] [info] Renamed to /home/pglandon/.vscode/extensions/znck.grammarly-0.6.2
+[2020-03-17 19:22:00.233] [sharedprocess] [info] Installation completed. znck.grammarly
+[2020-03-17 19:22:00.248] [sharedprocess] [info] Extensions installed successfully: znck.grammarly
+[2020-03-17 19:59:06.604] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-03-17 19:59:07.172] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/e0d36392-2f6d-4623-8f25-4de37323bff3
+[2020-03-17 19:59:17.024] [sharedprocess] [info] Extracted extension to /home/pglandon/.vscode/extensions/.ms-python.python-2020.2.64397: ms-python.python
+[2020-03-17 19:59:17.024] [sharedprocess] [info] Renamed to /home/pglandon/.vscode/extensions/ms-python.python-2020.2.64397
+[2020-03-17 19:59:17.029] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-03-17 19:59:17.050] [sharedprocess] [info] Extensions installed successfully: ms-python.python

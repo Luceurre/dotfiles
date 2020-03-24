@@ -1,0 +1,8 @@
+[2020-03-17 02:29:57.240] [sharedprocess] [info] main {"machineId":"275fd99a8e9156d080baef52a18c9f7d83c358ed07e596f9e21ed2e5b280d345","windowId":2}
+[2020-03-17 02:30:37.257] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-03-17 02:33:35.487] [sharedprocess] [info] Installing extension: julialang.language-julia
+[2020-03-17 02:33:35.758] [sharedprocess] [info] Downloaded extension: julialang.language-julia /tmp/86f2e251-869b-4412-a474-c4b90d44c83f
+[2020-03-17 02:33:37.574] [sharedprocess] [info] Extracted extension to /home/pglandon/.vscode/extensions/.julialang.language-julia-0.14.18: julialang.language-julia
+[2020-03-17 02:33:37.574] [sharedprocess] [info] Renamed to /home/pglandon/.vscode/extensions/julialang.language-julia-0.14.18
+[2020-03-17 02:33:37.575] [sharedprocess] [info] Installation completed. julialang.language-julia
+[2020-03-17 02:33:37.585] [sharedprocess] [info] Extensions installed successfully: julialang.language-julia
