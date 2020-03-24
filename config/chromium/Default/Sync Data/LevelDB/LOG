@@ -1,6 +1,0 @@
-2020/03/24-14:46:51.581 ad1 Reusing MANIFEST /home/pglandon/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/03/24-14:46:51.582 ad1 Recovering log #288
-2020/03/24-14:46:51.584 ad1 Reusing old log /home/pglandon/.config/chromium/Default/Sync Data/LevelDB/000288.log 
-2020/03/24-14:46:52.913 e4b Level-0 table #292: started
-2020/03/24-14:46:52.946 e4b Level-0 table #292: 83505 bytes OK
-2020/03/24-14:46:52.962 e4b Delete type=0 #288

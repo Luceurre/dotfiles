@@ -1,6 +1,0 @@
-2020/03/21-15:53:57.002 20a17f Reusing MANIFEST /home/pglandon/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/03/21-15:53:57.002 20a17f Recovering log #3
-2020/03/21-15:53:57.003 20a17f Reusing old log /home/pglandon/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000003.log 
-2020/03/21-16:48:28.636 532b Level-0 table #5: started
-2020/03/21-16:48:28.669 532b Level-0 table #5: 2285206 bytes OK
-2020/03/21-16:48:28.674 532b Delete type=0 #3
