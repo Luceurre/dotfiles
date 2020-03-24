@@ -1,0 +1,6 @@
+matplotlib
+virtualenv
+numpy
+scipy 
+spglib 
+pymatgen

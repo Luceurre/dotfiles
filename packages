@@ -1,0 +1,39 @@
+linux
+dhcpcd
+nano
+intel-ucode
+grub
+os-prober
+openssh
+base-devel
+linux-firmware
+sudo
+nvidia
+nvidia-settings
+git
+wget
+docker
+docker-compose
+i3-gaps
+xorg
+xorg-xinit
+rofi
+go
+fakeroot
+python-pip
+pulseaudio
+qt5
+zsh
+feh
+wmctrl
+imagemagick
+picom
+numlockx
+texlive-most
+texlive-core
+xterm
+discord
+qemu
+# add VM packages too (libvirt and so on)
+binutils sdl2 sdl2_ttf libx11 nettle fontconfig cmake spice-protocol gnu-free-fonts glu # For lightglass 
+ntfs-3g # NTFS support
