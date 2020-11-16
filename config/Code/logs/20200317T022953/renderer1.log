@@ -1,4 +1,0 @@
-[2020-03-17 02:54:29.604] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
-    at k.reject (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4743:465)
-    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4747:425
-    at async k.doWriteConfiguration (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4740:711)

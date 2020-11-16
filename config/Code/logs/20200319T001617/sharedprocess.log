@@ -1,8 +1,0 @@
-[2020-03-19 00:16:21.268] [sharedprocess] [info] main {"machineId":"275fd99a8e9156d080baef52a18c9f7d83c358ed07e596f9e21ed2e5b280d345","windowId":2}
-[2020-03-19 00:17:01.293] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-03-19 00:18:43.564] [sharedprocess] [info] Installing extension: tomoki1207.pdf
-[2020-03-19 00:18:43.920] [sharedprocess] [info] Downloaded extension: tomoki1207.pdf /tmp/60db4228-3352-4b51-b5f6-a16682156818
-[2020-03-19 00:18:44.441] [sharedprocess] [info] Extracted extension to /home/pglandon/.vscode/extensions/.tomoki1207.pdf-0.5.1: tomoki1207.pdf
-[2020-03-19 00:18:44.442] [sharedprocess] [info] Renamed to /home/pglandon/.vscode/extensions/tomoki1207.pdf-0.5.1
-[2020-03-19 00:18:44.443] [sharedprocess] [info] Installation completed. tomoki1207.pdf
-[2020-03-19 00:18:44.469] [sharedprocess] [info] Extensions installed successfully: tomoki1207.pdf
