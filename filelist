@@ -11,3 +11,4 @@
 .doom.d/snippets/fundamental-mode/dox
 .doom.d/project-skeletons/cpp-template/CMakeLists.txt
 .doom.d/project-skeletons/cpp-template/src/main.cpp
+.config/i3/config
