@@ -94,6 +94,9 @@ myEditor :: String
 myEditor = "emacsclient -c -a emacs "  -- Sets emacs as editor for tree select
 -- myEditor = myTerminal ++ " -e vim "    -- Sets vim as editor for tree select
 
+myRofi :: String
+myRofi = "exec rofi -combi-modi window,drun -show combi -modi combi -icon-theme \"Papirus\" -show-icons"
+
 myBorderWidth :: Dimension
 myBorderWidth = 2          -- Sets border width for windows
 
@@ -715,8 +718,8 @@ myLayoutHook = avoidStruts $ mouseResize $ windowArrange $ T.toggleLayouts float
                                  ||| threeCol
                                  ||| threeRow
 
-myWorkspaces = withScreens 4 [" dev ", " www ", " sys ", " doc ", " vbox ", " chat ", " mus ", " vid ", " gfx "]
--- myWorkspaces = [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "]
+myWorkspaces = [" dev ", " www ", " sys ", " doc ", " vbox ", " chat ", " mus ", " vid ", " gfx "]
+-- myWorkspaces = withScreens 4 [" 1 ", " 2 ", " 3 ", " 4 "]
 
 xmobarEscape :: String -> String
 xmobarEscape = concatMap doubleLts
@@ -724,14 +727,14 @@ xmobarEscape = concatMap doubleLts
         doubleLts '<' = "<<"
         doubleLts x   = [x]
 
-myClickableWorkspaces :: [String]
-myClickableWorkspaces = clickable . (map xmobarEscape)
-               -- $ [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "]
-               $ [" dev ", " www ", " sys ", " doc ", " vbox ", " chat ", " mus ", " vid ", " gfx "]
-  where
-        clickable l = [ "<action=xdotool key super+" ++ show (n) ++ ">" ++ ws ++ "</action>" |
-                      (i,ws) <- zip [1..9] l,
-                      let n = i ]
+-- myClickableWorkspaces :: [String]
+-- myClickableWorkspaces = clickable . (map xmobarEscape)
+--                -- $ [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "]
+--                $ [" dev ", " www ", " sys ", " doc ", " vbox ", " chat ", " mus ", " vid ", " gfx "]
+--   where
+--         clickable l = [ "<action=xdotool key super+" ++ show (n) ++ ">" ++ ws ++ "</action>" |
+--                       (i,ws) <- zip [1..9] l,
+--                       let n = i ]
 
 myManageHook :: XMonad.Query (Data.Monoid.Endo WindowSet)
 myManageHook = composeAll
@@ -760,7 +763,8 @@ myKeys =
         , ("M-S-e", io exitSuccess)             -- Quits xmonad
 
     -- Run Prompt
-        , ("M-S-<Return>", shellPrompt dtXPConfig) -- Shell Prompt
+        , ("M-S-\\", shellPrompt dtXPConfig) -- Shell Prompt
+        , ("M-S-<Return>", spawn myRofi) -- Rofi
 
     -- Useful programs to have a keybinding for launch
         -- , ("M-<Return>", spawn (myTerminal ++ " -e fish"))
@@ -889,11 +893,11 @@ myKeys =
           where nonNSP          = WSIs (return (\ws -> W.tag ws /= "nsp"))
                 nonEmptyNonNSP  = WSIs (return (\ws -> isJust (W.stack ws) && W.tag ws /= "nsp"))
 
-
-myKeys2 = [((m .|. modm, k), windows $ onCurrentScreen f i)
-        | (i, k) <- zip (workspaces' conf) [xK_1 .. xK_9]
-        , (f, m) <- [(W.greedyView, 0), (W.shift, shiftMask)]]
-
+myKeys2 baseConfig@(XConfig {modMask = modKey}) =
+  -- [((modKey, k), windows $ onCurrentScreen f i)
+  --       | (i, k) <- zip (workspaces' baseConfig) [xK_1 .. xK_9]
+  --       , (f, m) <- [(W.greedyView, 0), (W.shift, shiftMask)]]
+  []
 main :: IO ()
 main = do
     -- Launching three instances of xmobar on their monitors.
@@ -904,8 +908,8 @@ main = do
     -- xmproc1 <- spawnPipe "xmobar -x 1 /home/dt/.config/xmobar/xmobarrc2"
     -- xmproc2 <- spawnPipe "xmobar -x 2 /home/dt/.config/xmobar/xmobarrc1"
     -- the xmonad, ya know...what the WM is named after!
-    xmonad $ ewmh def
-        { manageHook = ( isFullscreen --> doFullFloat ) <+> myManageHook <+> manageDocks
+    let myConfig = ewmh def {
+        manageHook = ( isFullscreen --> doFullFloat ) <+> myManageHook <+> manageDocks
         -- Run xmonad commands from command line with "xmonadctl command". Commands include:
         -- shrink, expand, next-layout, default-layout, restart-wm, xterm, kill, refresh, run,
         -- focus-up, focus-down, swap-up, swap-down, swap-master, sink, quit-wm. You can run
@@ -934,4 +938,6 @@ main = do
                         , ppExtras  = [windowCount]                           -- # of windows current workspace
                         , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t]
                         }
-        } `additionalKeysP` myKeys `additionalKeys` myKeys2
+        } `additionalKeysP` myKeys
+    let myConfig' = myConfig `additionalKeys` (myKeys2 myConfig)
+    xmonad $ myConfig'

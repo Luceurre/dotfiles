@@ -1,3 +1,13 @@
 .zshrc
 .xinitrc
 .xmonad/xmonad.hs
+.doom.d/my-mode.el
+.doom.d/todos.org
+.doom.d/init.el
+.doom.d/autosave.el
+.doom.d/config.el
+.doom.d/my-python-mode.el
+.doom.d/packages.el
+.doom.d/snippets/fundamental-mode/dox
+.doom.d/project-skeletons/cpp-template/CMakeLists.txt
+.doom.d/project-skeletons/cpp-template/src/main.cpp

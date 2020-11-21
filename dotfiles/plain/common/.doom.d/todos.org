@@ -1,0 +1,6 @@
+* TODO learn to make a package [0/1]
++ [ ] turn autosave.el into a package
+* TODO turn emacs into a C++ IDE [0/3]
++ [ ] gdb integration
++ [ ] compilation integration
++ [ ] method declaration integration
