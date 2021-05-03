@@ -9,3 +9,5 @@
       command: chsh -s $(which zsh)
       description: Making zsh the default shell
       stdin: true
+      stderr: true
+      stdout: true
