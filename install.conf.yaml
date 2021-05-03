@@ -1,14 +1,34 @@
 - defaults:
     link:
       relink: true
+- create:
+    - ~/.zsh
 - link:
     ~/.zshrc: zshrc
-    ~/.oh-my-zsh: ohmyzsh
 - shell:
+    -
+      command: sudo pacman -Syyq > /dev/null && sudo pacman -Sq --needed git base-devel > /dev/null
+      description: Installing basic tools
+      stdin: true
+      stdout: true
+    -
+      command: paru -S --needed --skipreview --noconfirm --useask - < pkglist.txt > /dev/null
+      description: Installing requirements
+      stdin: true
+      stdout: true
+    -
+      command: "if ! command -v paru &> /dev/null;then; git clone https://aur.archlinux.org/paru.git && cd paru && makepkg -si && cd .. && rm -rf paru;fi;"
+      stdin: true
+      stderr: true
+      stdout: true
+      description: "Installing paru"
     - [git submodule update --init --recursive, Installing submodules]
     -
-      command: chsh -s /bin/zsh
+      command: "[ -n ${ZSH_NAME} ] || chsh -s /bin/zsh"
       description: Making zsh the default shell
       stdin: true
       stderr: true
       stdout: true
+    -
+      command: curl -L git.io/antigen > ~/.zsh/antigen.zsh
+      description: Installing antigen
