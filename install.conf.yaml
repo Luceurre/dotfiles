@@ -5,4 +5,4 @@
     ~/.zshrc: zshrc
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - [chsh -s $(which zsh), Making zsh the default shell]
+    - [chsh -s /bin/zsh, Making zsh the default shell]
