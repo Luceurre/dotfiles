@@ -6,7 +6,7 @@
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     -
-      command: chsh -s $(which zsh)
+      command: chsh -s /bin/zsh
       description: Making zsh the default shell
       stdin: true
       stderr: true
