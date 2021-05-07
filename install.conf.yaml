@@ -5,6 +5,7 @@
     - ~/.zsh
 - link:
     ~/.zshrc: zshrc
+    ~/.p10k.zsh: p10k.zsh
 - shell:
     -
       command: sudo pacman -Syyq > /dev/null && sudo pacman -Sq --needed git base-devel > /dev/null
