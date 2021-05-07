@@ -8,12 +8,12 @@
     ~/.p10k.zsh: p10k.zsh
 - shell:
     -
-      command: sudo pacman -Syyq > /dev/null && sudo pacman -Sq --needed git base-devel > /dev/null
+      command: sudo pacman -Syyq && sudo pacman -Sq --needed git base-devel 
       description: Installing basic tools
       stdin: true
       stdout: true
     -
-      command: paru -S --needed --skipreview --noconfirm --useask - < pkglist.txt > /dev/null
+      command: paru -S --needed --skipreview --noconfirm --useask - < pkglist.txt 
       description: Installing requirements
       stdin: true
       stdout: true
