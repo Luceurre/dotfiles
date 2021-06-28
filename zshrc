@@ -26,6 +26,7 @@ antigen bundle docker-compose
 antigen bundle dirhistory
 antigen bundle dotenv
 antigen bundle man
+antigen bundle fzf
 
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
