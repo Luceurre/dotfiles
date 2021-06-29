@@ -2,34 +2,31 @@
     link:
       relink: true
 - create:
+    - ~/.config
     - ~/.zsh
 - link:
     ~/.zshrc: zshrc
     ~/.p10k.zsh: p10k.zsh
+    ~/.config/alacritty/alacritty.yml: alacritty.yml
 - shell:
-    -
-      command: sudo pacman -Syyq && sudo pacman -Sq --needed git base-devel 
+    - command: sudo pacman -Syyq && sudo pacman -Sq --needed git base-devel
       description: Installing basic tools
       stdin: true
       stdout: true
-    -
-      command: paru -S --needed --skipreview --noconfirm --useask - < pkglist.txt 
+    - command: paru -S --needed --skipreview --noconfirm --useask - < pkglist.txt
       description: Installing requirements
       stdin: true
       stdout: true
-    -
-      command: "if ! command -v paru &> /dev/null;then; git clone https://aur.archlinux.org/paru.git && cd paru && makepkg -si && cd .. && rm -rf paru;fi;"
+    - command: "if ! command -v paru &> /dev/null;then; git clone https://aur.archlinux.org/paru.git && cd paru && makepkg -si && cd .. && rm -rf paru;fi;"
       stdin: true
       stderr: true
       stdout: true
       description: "Installing paru"
     - [git submodule update --init --recursive, Installing submodules]
-    -
-      command: "[ -n ${ZSH_NAME} ] || chsh -s /bin/zsh"
+    - command: "[ -n ${ZSH_NAME} ] || chsh -s /bin/zsh"
       description: Making zsh the default shell
       stdin: true
       stderr: true
       stdout: true
-    -
-      command: curl -L git.io/antigen > ~/.zsh/antigen.zsh
+    - command: curl -L git.io/antigen > ~/.zsh/antigen.zsh
       description: Installing antigen
