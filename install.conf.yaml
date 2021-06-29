@@ -9,6 +9,7 @@
     ~/.p10k.zsh: p10k.zsh
     ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.doom.d: doom.d
+    ~/.gitconfig: gitconfig
 - shell:
     - command: sudo pacman -Syyq && sudo pacman -Sq --needed git base-devel
       description: Installing basic tools
