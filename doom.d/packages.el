@@ -52,3 +52,4 @@
 (unpin! magit)
 (package! magit :pin "c3bbc9b942")
 (package! magit-delta)
+(package! git-link)
