@@ -10,6 +10,8 @@
     ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.doom.d: doom.d
     ~/.gitconfig: gitconfig
+    ~/.profile: profile
+    ~/.zprofile: zprofile
 - shell:
     - command: sudo pacman -Syyq && sudo pacman -Sq --needed git base-devel
       description: Installing basic tools
