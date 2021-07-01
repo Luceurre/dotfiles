@@ -172,25 +172,25 @@
 (setq eros-eval-result-prefix "⟹ ")
 
 (setq yas-triggers-in-field t)
-(use-package tide
-  :config
-  (setq tide-user-preferences '(:includeCompletionsForModuleExports t :includeCompletionsWithInsertText t :allowTextChangesInNewFiles t))
-  (setq tide-completion-show-source t)
-  (setq tide-completion-detailed t)
-  (setq tide-completion-enable-autoimport-suggestions t)
-  (setq tide-always-show-documentation t)
-  (setq tide-hl-identifier-idle-time 0))
+;; (use-package tide
+;;   :config
+;;   (setq tide-user-preferences '(:includeCompletionsForModuleExports t :includeCompletionsWithInsertText t :allowTextChangesInNewFiles t))
+;;   (setq tide-completion-show-source t)
+;;   (setq tide-completion-detailed t)
+;;   (setq tide-completion-enable-autoimport-suggestions t)
+;;   (setq tide-always-show-documentation t)
+;;   (setq tide-hl-identifier-idle-time 0))
 
-(map! :after tide
-      (:map typescript-mode-map
-      (:leader
-      (:prefix "c"
-      (:desc "Goto definition (Tide)"
-      "d" #'tide-jump-to-definition)
-      (:desc "Find references (Tide)"
-      "D" #'tide-references)
-      (:desc "Fix (Tide)"
-      "a" #'tide-fix)))))
+;; (map! :after tide
+;;       (:map typescript-mode-map
+;;       (:leader
+;;       (:prefix "c"
+;;       (:desc "Goto definition (Tide)"
+;;       "d" #'tide-jump-to-definition)
+;;       (:desc "Find references (Tide)"
+;;       "D" #'tide-references)
+;;       (:desc "Fix (Tide)"
+;;       "a" #'tide-fix)))))
 
 (add-hook 'typescript-mode-local-vars-hook
           (lambda ()
