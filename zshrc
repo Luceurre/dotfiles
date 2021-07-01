@@ -43,3 +43,4 @@ antigen apply
 [[ -f ~/.zsh/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(pyenv init -)"
+alias main="maim -s ~/Pictures/screenshots/screenshot_$(date +"%Y-%m-%d-%T").png && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`"
