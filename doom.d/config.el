@@ -221,3 +221,9 @@
 (use-package evil-snipe
   :config
   (setq evil-snipe-scope 'buffer))
+
+(defun lombok-mode ()
+  "Restart Java LS with Lombok plugin."
+  (interactive)
+  (setq lsp-java-vmargs '("-noverify" "-Xmx8G" "-XX:+UseG1GC" "-XX:+UseStringDeduplication" "-javaagent:/home/pglandon/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar" "-Xbootclasspath/a:/home/pglandon/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"))
+  (lsp-restart-workspace))
