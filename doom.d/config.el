@@ -102,7 +102,9 @@
       doom-unicode-font (font-spec :family "JuliaMono")
       doom-serif-font (font-spec :family "IBM Plex Mono" :weight 'light))
 
-(setq doom-theme 'doom-vibrant)
+(setq doom-themes [''doom-moonlight ''doom-acario-dark ''doom-xcode ''doom-palenight ''doom-molokai])
+(setq doom-theme 'doom-xcode)
+;; (setq doom-theme (seq-random-elt doom-themes))
 (remove-hook 'window-setup-hook #'doom-init-theme-h)
 (add-hook 'after-init-hook #'doom-init-theme-h 'append)
 (delq! t custom-theme-load-path)
