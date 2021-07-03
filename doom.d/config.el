@@ -95,14 +95,18 @@
       (setq display-line-numbers 'relative)
     (setq display-line-numbers t)))
 
-(defun doom+/mc-mark-next-line ()
-  "Add a cursor at the beginning of next line."
-  (interactive)
-  (let ((begin (line-beginning-position)) (end (line-beginning-position 2)))
-    (evil-multiedit-ex-match
-     (begin) (end)
-     nil "^") )
+(defun doom+/mc-mark-next-line (start end)
+  "Add a cursor at the beginning of next line. If there is an active selection, start a cursor at the beginning of each line."
+  (interactive "r")
+  (if (use-region-p)
+      (message (count-lines
+                start end))
+    (save-excursion
+      (beginning-of-line (+ 1 (length evil-mc-cursor-list)))
+      (evil-mc-make-cursor-here))
+    )
   )
+
 (map!
  :leader
  "t l" 'doom+/toggle-line-numbers)
