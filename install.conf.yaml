@@ -12,6 +12,7 @@
     ~/.gitconfig: gitconfig
     ~/.profile: profile
     ~/.zprofile: zprofile
+    ~/.ideavimrc: ideavimrc
 - shell:
     - command: sudo pacman -Syyq && sudo pacman -Sq --needed git base-devel
       description: Installing basic tools

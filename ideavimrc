@@ -1,0 +1,123 @@
+"track action id"
+"" Source your .vimrc
+"source ~/.vimrc
+nnoremap <SPACE> <Nop>
+let mapleader = " "
+
+""" Plugins  --------------------------------
+set surround
+set multiple-cursors
+set commentary
+set argtextobj
+set easymotion
+set textobj-entire
+set ReplaceWithRegister
+set exchange
+set highlightedyank
+set textobj-indent
+set vim-repeat
+set repeat
+
+""" Plugin settings -------------------------
+let g:argtextobj_pairs="[:],(:),<:>"
+let g:EasyMotion_startofline = 0
+
+""" Common settings -------------------------
+set showmode
+set so=5
+set incsearch
+set nu
+set scrolloff=5
+
+""" Idea specific settings ------------------
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+
+"" Handlers
+sethandler <C-SPACE> n-v:vim i:ide
+
+"" Modes
+inoremap <C-g> <Esc>
+vnoremap <C-g> <Esc>
+nnoremap <C-g> <Esc>
+noremap <C-g> <Esc>
+cnoremap <C-g> <Esc>
+nnoremap <C-SPACE> v
+
+"" Refactoring
+nmap <leader>rr <Action>(RenameElement)
+nmap <leader>rw <Action>(Refactorings.QuickListPopupAction)
+vmap <leader>rw <Action>(Refactorings.QuickListPopupAction)
+vmap <leader>rm <Action>(ExtractMethod)
+
+"" Project
+nmap <leader>pr <Action>(Run)
+nmap <leader>p<S-r> <Action>(ChooseRunConfiguration)
+nmap <leader>pd <Action>(Debug)
+nmap <leader>p<S-d> <Action>(ChooseDebugConfiguration)
+nmap <leader>ps <Action>(Stop)
+
+"" Open
+nmap <leader>op <Action>(ActivateProjectToolWindow)
+nmap <leader>ot <Action>(ActivateTerminalToolWindow)
+
+"" Debug
+nmap <leader>db <Action>(ToggleLineBreakpoint)
+
+"" Motion
+nmap s <Plug>(easymotion-s)
+vmap s <Nop>
+vmap s <Plug>(easymotion-s)
+
+nmap <S-s> <Plug>(easymotion-sl)
+"" Not working
+vmap <S-s> <Nop>
+vmap <S-s> <Plug>(easymotion-sl)
+
+nmap <leader>ml <Plug>(easymotion-j)
+vmap <leader>ml <Plug>(easymotion-j)
+
+"" VCS/Git
+
+"" TODO: remove mouse in commit pane
+nmap <leader>gh <Action>(Vcs.ShowTabbedFileHistory)
+"" TODO: map pane navigation in git history
+nmap <leader>gc <Action>(CheckinProject)
+nmap <leader>gg <Action>(ActivateVersionControlToolWindow)
+
+"" Code
+nmap <leader>ck <Action>(QuickJavaDoc)
+nmap <leader>ca <Action>(ShowIntentionActions)
+"" nmap <leader>ck <Action>(QuickImplementations)
+nmap <leader>cd <Action>(GotoDeclaration)
+nmap <leader>cx <Action>(ActivateProblemsViewToolWindow)
+
+"" Window
+nmap <leader>wv <Action>(SplitVertically)
+nmap <leader>wl <Action>(NextSplitter)
+nmap <leader>w<Right> <Action>(NextSplitter)
+
+"" Buffer
+"" Not Working
+nmap <leader>bk <C-4>
+
+
+"" À trier
+map <leader>cf <Action>(ReformatCode)
+nmap <leader>gb <Action>(Back)
+nmap <leader>gf <Action>(Forward)
+nmap <leader>gs <Action>(GotoSymbol)
+nmap <leader>gle <Action>(JumpToLastChange)
+map <C-o> <Action>(Back)
+map <C-p> <Action>(Forward)
+"" Not Working
+nmap <leader><leader> <Action>(GotoFile)
+
+nmap gzl <Action>(EditorCloneCaretAbove)
+nmap gzn <Action>(SelectNextOccurrence)
+nmap gza <Action>(SelectAllOccurrences)
+nmap gzr <Action>(UnselectPreviousOccurrence)
+map <C-j> <Action>(EditorForwardParagraph)
+map <C-k> <Action>(EditorBackwardParagraph)
+vmap <C-E> <Action>(EditorSelectWord)
