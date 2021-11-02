@@ -3,14 +3,7 @@
 	name = Pierre Glandon
 [core]
 	autocrlf = input
-[pager]
-    diff = delta
-    log = delta
-    reflog = delta
-    show = delta
-
-[interactive]
-    diffFilter = delta
+	excludesFile = ~/.gitignore
 
 [delta]
     features = side-by-side line-numbers
@@ -18,3 +11,5 @@
 	enabled = true
 [rebase]
 	autosquash = true
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret

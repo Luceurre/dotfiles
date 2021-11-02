@@ -48,5 +48,7 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
-(package! magit-delta)
+(package! magit-delta )
 (package! git-link)
+(unpin! magit)
+(package! magit :pin "b6751568c32b87f8b98c304531ad7f20799c6d86")

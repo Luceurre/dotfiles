@@ -83,7 +83,7 @@
 
 (use-package! magit-delta
   :after magit
-  :hook (magit-mode . magit-delta-mode)
+  ;; :hook (magit-mode . magit-delta-mode)
   )
 
 (setq doom-theme 'doom-city-lights)
@@ -95,21 +95,45 @@
       (setq display-line-numbers 'relative)
     (setq display-line-numbers t)))
 
-(defun doom+/mc-mark-next-line (start end)
+(require 'evil-mc)
+(defun doom+/mc-mark-beginning-of-next-line (count)
   "Add a cursor at the beginning of next line. If there is an active selection, start a cursor at the beginning of each line."
+  (interactive "P")
+  (let ((count (or (prefix-numeric-value count))))
+    (unless (<= count 0)
+      (beginning-of-line)
+      (save-excursion
+        (beginning-of-line (+ 2 (length evil-mc-cursor-list)))
+        (evil-mc-make-cursor-here))
+      (doom+/mc-mark-beginning-of-next-line (- count 1))
+      )
+    )
+  )
+
+(eval-js-file "/home/pglandon/.doom.d/ts/src/evil-mc.ts")
+(defun doom+/mc-mark-beginning-of-lines-in-region (begin end)
+  "Add cursors at the beginning of each line in active region."
   (interactive "r")
-  (if (use-region-p)
-      (message (count-lines
-                start end))
+  (unless (not (region-active-p))
+    (goto-char begin)
+    (pop-mark)
+    (beginning-of-line)
     (save-excursion
-      (beginning-of-line (+ 1 (length evil-mc-cursor-list)))
-      (evil-mc-make-cursor-here))
+      (forward-line)
+      (mc-mark-beginning-of-lines begin end))
     )
   )
 
 (map!
  :leader
- "t l" 'doom+/toggle-line-numbers)
+ "t l" 'doom+/toggle-line-numbers
+ )
+
+(map!
+ :nv
+ :prefix "g z"
+ :n "l" 'doom+/mc-mark-beginning-of-next-line
+ :v "l" 'doom+/mc-mark-beginning-of-lines-in-region)
 
 (setq doom-fallback-buffer-name "► Doom"
       +doom-dashboard-name "► Doom")
@@ -128,10 +152,26 @@
              (format (if (buffer-modified-p)  " ◉ %s" "  ●  %s") project-name))))))
 
 (after! company
-  (setq company-idle-delay 0.1
+  (setq company-idle-delay 0
         company-minimum-prefix-length 2)
   (setq company-show-numbers t)
   (add-hook 'evil-normal-state-entry-hook #'company-abort))
 
 (setq-default history-length 1000)
 (setq-default prescient-history-length 1000)
+
+(defun lombok-mode ()
+  "Restart Java LS with Lombok plugin."
+  (interactive)
+  (setq lsp-java-vmargs '("-noverify" "-Xmx8G" "-XX:+UseG1GC" "-XX:+UseStringDeduplication" "-Xbootclasspath/a:/usr/lib/lombok-common/lombok.jar"))
+  (lsp-restart-workspace))
+
+(use-package! lsp
+  :config
+  (setq lsp-headerline-breadcrumb-enable t))
+
+(require 'lsp-java-boot)
+
+;; to enable the lenses
+(add-hook 'lsp-mode-hook #'lsp-lens-mode)
+(add-hook 'java-mode-hook #'lsp-java-boot-lens-mode)
