@@ -29,4 +29,7 @@
     ~/.config/i3:
         path: config/i3
 
+- paru:
+  - brave-bin
+  - maim
 
