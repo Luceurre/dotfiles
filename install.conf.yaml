@@ -1,0 +1,35 @@
+- clean: ['~']
+
+- link:
+    ~/.conkyrc:
+        path: conkyrc
+        create: false
+        relink: false
+        force: false
+    ~/.gitconfig:
+        path: gitconfig
+        create: false
+        relink: false
+        force: false
+    ~/.zshrc:
+        path: zshrc
+        create: false
+        relink: false
+        force: false
+    ~/.Xresources:
+        path: Xresources
+        create: false
+        relink: false
+        force: false
+    ~/.xinitrc:
+        path: xinitrc
+        create: false
+        relink: false
+        force: false
+    ~/.config/i3:
+        path: config/i3/
+        create: true
+        relink: false
+        force: false
+
+
