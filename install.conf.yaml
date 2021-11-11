@@ -1,35 +1,32 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
 - clean: ['~']
+
+- shell:
+  - 
+    command: command -v zsh && [[$SHELL == "/bin/zsh"]] && chsh -s $(which zsh)
+    description: Making zsh the default shell
+    stdin: true
+    stdout: true
+    stderr: true
+
+- create:
+  - ~/Projects
+  - ~/Documents
+  - ~/Documents/org
+  - ~/Documents/org-roam
+  - ~/Downloads
 
 - link:
     ~/.conkyrc:
-        path: conkyrc
-        create: false
-        relink: false
-        force: false
     ~/.gitconfig:
-        path: gitconfig
-        create: false
-        relink: false
-        force: false
     ~/.zshrc:
-        path: zshrc
-        create: false
-        relink: false
-        force: false
     ~/.Xresources:
-        path: Xresources
-        create: false
-        relink: false
-        force: false
     ~/.xinitrc:
-        path: xinitrc
-        create: false
-        relink: false
-        force: false
     ~/.config/i3:
-        path: config/i3/
-        create: true
-        relink: false
-        force: false
+        path: config/i3
 
 
