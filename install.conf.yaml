@@ -7,7 +7,7 @@
 
 - shell:
   - 
-    command: command -v zsh && [[$SHELL == "/bin/zsh"]] && chsh -s $(which zsh)
+    command: command -v zsh && [[ "$SHELL" == "/bin/zsh" ]] || chsh -s $(which zsh)
     description: Making zsh the default shell
     stdin: true
     stdout: true
