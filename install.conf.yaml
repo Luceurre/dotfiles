@@ -28,6 +28,8 @@
     ~/.xinitrc:
     ~/.config/i3:
         path: config/i3
+    ~/.config/polybar:
+        path: config/polybar
 
 - paru:
   - brave-bin
