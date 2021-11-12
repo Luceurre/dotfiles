@@ -30,8 +30,12 @@
         path: config/i3
     ~/.config/polybar:
         path: config/polybar
+    ~/.config/rofi:
+        path: config/rofi
 
 - paru:
   - brave-bin
   - maim
+  - jetbrains-toolbox
+  - sxhkd
 
