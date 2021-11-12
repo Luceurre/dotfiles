@@ -32,10 +32,12 @@
         path: config/polybar
     ~/.config/rofi:
         path: config/rofi
+    ~/.zprofile:
 
 - paru:
   - brave-bin
   - maim
   - jetbrains-toolbox
   - sxhkd
+  - pyenv
 

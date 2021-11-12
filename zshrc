@@ -391,6 +391,12 @@ alias personal='cp -Rf /personal/* ~'
 
 [[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
 
+source ~/.zprofile
+
+# Pyenv init
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
 # reporting tools - install when not installed
 #neofetch
 #screenfetch
