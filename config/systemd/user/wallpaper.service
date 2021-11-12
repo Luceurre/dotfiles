@@ -2,4 +2,4 @@
 Description=Wallpaper (variety)
 
 [Service]
-ExecStart=/usr/lib/varietry
+ExecStart=feh --recursive --bg-fill --randomize /usr/share/wallpapers
