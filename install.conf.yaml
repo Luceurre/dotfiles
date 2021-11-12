@@ -58,3 +58,6 @@
   - pyenv
   - emacs
 
+- git:
+    '~/.zinit/bin':
+        url: https://github.com/zdharma-continuum/zinit.git

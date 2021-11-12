@@ -2,4 +2,4 @@
 Description=Wallpaper (variety)
 
 [Service]
-ExecStart=feh --recursive --bg-fill --randomize /usr/share/wallpapers
+ExecStart=feh --recursive --bg-fill --randomize /home/pglandon/.wallpapers

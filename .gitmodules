@@ -5,3 +5,6 @@
 [submodule "dotbot-paru"]
 	path = dotbot-paru
 	url = https://github.com/michaelray27/dotbot-paru.git
+[submodule "dotbot-git"]
+	path = dotbot-git
+	url = https://github.com/DrDynamic/dotbot-git.git
