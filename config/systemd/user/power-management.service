@@ -1,0 +1,5 @@
+[Unit]
+Description=Power Management (XFCE4)
+
+[Service]
+ExecStart=/usr/bin/xfce4-power-manager --daemon

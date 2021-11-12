@@ -12,6 +12,18 @@
     stdin: true
     stdout: true
     stderr: true
+  - systemctl --user add-wants autostart.target autorandr
+  - systemctl --user add-wants autostart.target sxhkd
+  - systemctl --user add-wants autostart.target slack
+  - systemctl --user add-wants autostart.target brave
+  - systemctl --user add-wants autostart.target numlockx 
+  - systemctl --user add-wants autostart.target polkit
+  - systemctl --user add-wants autostart.target bluetooth-tray
+  - systemctl --user add-wants autostart.target network-tray
+  - systemctl --user add-wants autostart.target sound-tray
+  - systemctl --user add-wants autostart.target wallpaper
+  - systemctl --user add-wants autostart.target power-management
+  - systemctl --user add-wants autostart.target notification
 
 - create:
   - ~/Projects
@@ -44,4 +56,5 @@
   - jetbrains-toolbox
   - sxhkd
   - pyenv
+  - emacs
 

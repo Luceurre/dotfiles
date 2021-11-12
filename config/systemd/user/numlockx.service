@@ -1,0 +1,5 @@
+[Unit]
+Description=Numlock at startup
+
+[Service]
+ExecStart=/usr/bin/numlockx

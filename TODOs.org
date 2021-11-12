@@ -1,0 +1,21 @@
+* TODOs
+
+** TODO Wallpaper
+- [ ] fix variety behavior
+- [ ] look for 4k wallpapers only
+- [ ] change variety config
+** TODO Things to tryout
+- [ ] add autotiling "on demand"
+- [ ] start thunar, intellij, emacs and spotify on startup
+** TODO Bluetooth
+- [ ] add bluetooth tray
+- [ ] enable bluetooth on startup
+** TODO Music
+- [ ] add spotify or deezer
+** TODO Fixes
+- [ ] fix workspace for slack
+** TODO ZSH
+** TODO Cloud
+- [ ] see insync for OneDrive and Google Drive sync
+** TODO clipboard manager 
+** TODO conky

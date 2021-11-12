@@ -1,0 +1,5 @@
+[Unit]
+Description=Best web browser in the world
+
+[Service]
+ExecStart=/usr/bin/brave

@@ -1,0 +1,5 @@
+[Unit]
+Description=Volume and audio device tray (pasystray)
+
+[Service]
+ExecStart=/usr/bin/pasystray

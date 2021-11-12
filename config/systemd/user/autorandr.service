@@ -1,0 +1,7 @@
+[Unit]
+Description=Automatically detect display config
+Documentation=man:autorandr(1)
+
+[Service]
+ExecStart=/usr/bin/autorandr -c -d mobile
+ExecReload=/usr/bin/autorandr -c -d mobile

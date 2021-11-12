@@ -330,89 +330,17 @@ for_window [class="slack"] move to workspace 10
 
 exec --no-startup-id systemctl --user start autostart.target
 
-# ArcoLinux Welcome App
-# exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
-
-# Autotiling
-# exec_always --no-startup-id autotiling
-
-# Browser
-exec --no-startup-id brave
-# for_window [class="brave"] focus
-
-# Text-editor
-# exec --no-startup-id geany
-# exec --no-startup-id atom
-
-# File manager
-# exec --no-startup-id thunar
-
-# Mail clients
-# exec --no-startup-id evolution
-
-# Music
-# exec --no-startup-id spotify
-# for_window [class="Spotify"] focus
-
 # TRAY APPLICATIONS
 
 # applications that are not installed will not start
 # you may see a wheel - hashtag out things you do not want/need
 
-# Authentication dialog
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-
-# Updater
-exec --no-startup-id pamac-tray
-
-# bluetooth
-# exec --no-startup-id blueberry-tray
-
-# network
-exec --no-startup-id nm-applet
-
-# num lock activated
-exec_always --no-startup-id numlockx on
-
-# dropbox
-# exec --no-startup-id dropbox start
-
-# insync
-# exec --no-startup-id insync start
-
-# volume
-# exec --no-startup-id pasystray
-exec --no-startup-id volumeicon
-
-# variety
-# exec --no-startup-id variety
-
-# clipman
-# exec --no-startup-id xfce4-clipman
-
-# Conky
-exec --no-startup-id conky -c ~/.config/i3/system-overview
-
-# feh sets wallpaper
-exec --no-startup-id feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
-
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
-
-################# system applications       
-
-exec --no-startup-id xfce4-power-manager &
-# ommitted next line to get super key to bring up the menu in xfce and avoid error then in i3
-# IF xfsettingsd is activated you can not change themes
-# exec --no-startup-id xfsettingsd &
-exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 ################# applications keyboard shortcuts  
 
 # not workspace related
-
-# ArcoLinux Welcome App
-bindsym control+mod1+w exec --no-startup-id arcolinux-welcome-app
 
 # ArcoLinux Tweak Tool
 bindsym control+mod1+e exec --no-startup-id arcolinux-tweak-tool
