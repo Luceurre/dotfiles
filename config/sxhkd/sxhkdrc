@@ -1,0 +1,23 @@
+super + shift + g
+	emacs
+
+super + Return
+    alacritty
+
+super + shift + Return
+    rofi -modi drun,run -show drun
+
+XF86Audio{Prev,Next,Play}
+    playerctl {previous, next, play-pause}
+
+XF86Audio{RaiseVolume,LowerVolume}
+    pactl set-sink-volume @DEFAULT_SINK@ {+5%,-5%}
+
+XF86Audio{Mute}
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+Print
+	~/.scripts/screenshot.sh
+
+XF86MonBrightness{Up,Down}
+    brightnessctl set 10%{+,-}

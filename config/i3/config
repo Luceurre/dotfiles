@@ -107,22 +107,22 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 ################# menu's in arcolinux
 
 # start 
-bindsym $mod+Shift+Return exec --no-startup-id $launcher -show drun
+# bindsym $mod+Shift+Return exec --no-startup-id $launcher -show drun
 
 # start xfce4-appfinder
-bindsym mod1+F2 exec --no-startup-id xfce4-appfinder --collapsed
+# bindsym mod1+F2 exec --no-startup-id xfce4-appfinder --collapsed
 
 # start xfce-appfinder
-bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
+# bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
 
 # start xlunch app launcher
 # bindsym mod1+F5 exec --no-startup-id xlunch --config ~/.config/xlunch/default.conf --input ~/.config/xlunch/entries.dsv
 
 # start rofi full
-bindsym $mod+F11 exec --no-startup-id "rofi -font 'Noto Sans 13' -theme-str 'window {width: 100%;height: 100%;}' -show drun"
+# bindsym $mod+F11 exec --no-startup-id "rofi -font 'Noto Sans 13' -theme-str 'window {width: 100%;height: 100%;}' -show drun"
 
 # start rofi small
-bindsym $mod+F12 exec --no-startup-id rofi -show drun -font "Noto Sans 13"
+# bindsym $mod+F12 exec --no-startup-id rofi -show drun -font "Noto Sans 13"
 
 ################# how to exit, logoff, suspend, ...
 
@@ -327,6 +327,8 @@ for_window [class="slack"] move to workspace 10
 ################# autostart - execute applications at boot time
 
 # USER APPLICATIONS TO START AT BOOT
+
+exec --no-startup-id systemctl --user start autostart.target
 
 # ArcoLinux Welcome App
 # exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop

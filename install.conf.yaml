@@ -33,6 +33,10 @@
     ~/.config/rofi:
         path: config/rofi
     ~/.zprofile:
+    ~/.config/systemd:
+        path: config/systemd
+    ~/.config/sxhkd:
+        path: config/sxhkd
 
 - paru:
   - brave-bin
