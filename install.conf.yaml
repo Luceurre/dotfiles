@@ -57,6 +57,8 @@
   - sxhkd
   - pyenv
   - emacs
+  - wget
+  - zsh
 
 - git:
     '~/.zinit/bin':
