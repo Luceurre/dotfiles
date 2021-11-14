@@ -1,16 +1,44 @@
+# From ZPWR (I don't really understand it, but whatever)
+
+function zpwrDedupPaths() {
+    # duplicates slow down searching and
+    # mess up OMZ fpath check if should remove zcompdump
+    fpath=(${(u)fpath})
+    path=(${(u)path})
+    manpath=(${(u)manpath})
+}
+
+# duplicates slow down searching
+builtin declare -aU fpath
+builtin declare -aU path
+builtin declare -aU manpath
+# FPATH should not be exported
+builtin declare +x FPATH
+zpwrDedupPaths
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 source ~/.zinit/bin/zinit.zsh
 
 # Local Variable
 ZINIT_COMPINIT_DELAY=1
 
 # Configuration
+## Git
+DISABLE_UNTRACKED_FILES_DIRTY="true"
+
 ## History
 ### Variable
-builtin export HISTFILE=~/.zsh_history
+HISTFILE=~/.zsh_history
 # change history size in memory
-builtin export HISTSIZE=999999999
+HISTSIZE=999999999
 # change history file size
-builtin export SAVEHIST=99999999
+SAVEHIST=99999999
 
 ### Flags
 # Allow multiple terminal sessions to all append to one zsh command history
@@ -45,6 +73,11 @@ builtin unsetopt hist_verify
 
 # imports new commands and appends typed commands to history
 builtin setopt share_history
+
+## Keybindings
+
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 
 # Completion
 zinit ice blockf atpull'zinit creinstall -q .' 
@@ -89,7 +122,6 @@ OMZ_PLUGINS=(
     grunt
     glassfish
     tig
-    tmux
     gradle
     grails
     docker-compose
@@ -151,6 +183,18 @@ zinit load lukechilds/zsh-better-npm-completion
 # Quick jump
 zinit load agkozak/zsh-z
 
+# Enhancd
+zinit ice wait lucid
+zinit light b4b4r07/enhancd
+builtin export ENHANCD_FILTER=fzf:fzy:peco
+
+# Tmux
+zinit ice lucid pick"plugins/tmux/tmux.plugin.zsh" nocompile atinit"ZSH_TMUX_AUTOSTART=true; ZSH_TMUX_AUTOCONNECT=false"
+zinit light ohmyzsh/ohmyzsh
+
+# Pyenv
+zinit ice lucid nocompile pick"zsh-pyenv.plugin.zsh"
+zinit light mattberther/zsh-pyenv
 
 # Global Keybinding
 # Vim
@@ -163,7 +207,11 @@ zinit load junegunn/fzf
 zinit ice as"program" pick"bin/git-fuzzy"
 zinit light bigH/git-fuzzy
 
+zinit ice wait"2" lucid from"gh-r" as"program" mv"bin/exa* -> exa"
+zinit light ogham/exa
 
+zinit ice from"gh-r" as"program" mv"ripgrep* -> ripgrep" pick"ripgrep/rg"
+zinit light BurntSushi/ripgrep
 # Need more config
 zinit ice lucid nocompile wait
 zinit load MenkeTechnologies/forgit
@@ -186,3 +234,15 @@ zinit load zdharma-continuum/fast-syntax-highlighting
 # Suggestions
 zinit ice lucid nocompile wait'0d' atload'_zsh_autosuggest_start'
 zinit load zsh-users/zsh-autosuggestions
+
+
+# Theme and powerline
+# zinit ice wait"!" from"gh-r" \
+#        atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
+#        atpull"%atclon" src"init.zsh"
+# zinit light starship/starship
+zinit ice depth=1
+zinit light romkatv/powerlevel10k
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

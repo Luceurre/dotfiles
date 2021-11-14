@@ -59,6 +59,7 @@
   - emacs
   - wget
   - zsh
+  - tmux
 
 - git:
     '~/.zinit/bin':
