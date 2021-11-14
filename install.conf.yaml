@@ -49,6 +49,7 @@
     ~/.config/sxhkd:
         path: config/sxhkd
     ~/.scripts:
+    ~/.spacemacs:
 
 - paru:
   - brave-bin

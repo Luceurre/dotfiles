@@ -29,6 +29,11 @@ source ~/.zinit/bin/zinit.zsh
 ZINIT_COMPINIT_DELAY=1
 
 # Configuration
+## Aliases
+alias ..="cd .."
+## Editor
+EDITOR=nvim
+
 ## Git
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
