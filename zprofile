@@ -1,4 +1,4 @@
 export NPM_CONFIG_PREFIX="$HOME/.npm"
-export PATH="$NPM_CONFIG_PREFIX/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$NPM_CONFIG_PREFIX/bin:$HOME/.cargo/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 
