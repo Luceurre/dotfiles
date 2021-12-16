@@ -3,33 +3,32 @@
       create: true
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - shell:
-  - 
-    command: command -v zsh && [[ "$SHELL" == "/bin/zsh" ]] || chsh -s $(which zsh)
-    description: Making zsh the default shell
-    stdin: true
-    stdout: true
-    stderr: true
-  - systemctl --user add-wants autostart.target autorandr
-  - systemctl --user add-wants autostart.target sxhkd
-  - systemctl --user add-wants autostart.target slack
-  - systemctl --user add-wants autostart.target brave
-  - systemctl --user add-wants autostart.target numlockx 
-  - systemctl --user add-wants autostart.target polkit
-  - systemctl --user add-wants autostart.target network-tray
-  - systemctl --user add-wants autostart.target sound-tray
-  - systemctl --user add-wants autostart.target wallpaper
-  - systemctl --user add-wants autostart.target wallpaper.timer
-  - systemctl --user add-wants autostart.target notification
+    - command: command -v zsh && [[ "$SHELL" == "/bin/zsh" ]] || chsh -s $(which zsh)
+      description: Making zsh the default shell
+      stdin: true
+      stdout: true
+      stderr: true
+    - systemctl --user add-wants autostart.target autorandr
+    - systemctl --user add-wants autostart.target sxhkd
+    - systemctl --user add-wants autostart.target slack
+    - systemctl --user add-wants autostart.target brave
+    - systemctl --user add-wants autostart.target numlockx
+    - systemctl --user add-wants autostart.target polkit
+    - systemctl --user add-wants autostart.target network-tray
+    - systemctl --user add-wants autostart.target sound-tray
+    - systemctl --user add-wants autostart.target wallpaper
+    - systemctl --user add-wants autostart.target wallpaper.timer
+    - systemctl --user add-wants autostart.target notification
 
 - create:
-  - ~/Projects
-  - ~/Documents
-  - ~/Documents/org
-  - ~/Documents/org-roam
-  - ~/Downloads
+    - ~/Projects
+    - ~/Documents
+    - ~/Documents/org
+    - ~/Documents/org-roam
+    - ~/Downloads
 
 - link:
     ~/.conkyrc:
@@ -38,30 +37,32 @@
     ~/.Xresources:
     ~/.xinitrc:
     ~/.config/i3:
-        path: config/i3
+      path: config/i3
     ~/.config/polybar:
-        path: config/polybar
+      path: config/polybar
     ~/.config/rofi:
-        path: config/rofi
+      path: config/rofi
+    ~/.config/nvim:
+      path: config/nvim
     ~/.zprofile:
     ~/.config/systemd:
-        path: config/systemd
+      path: config/systemd
     ~/.config/sxhkd:
-        path: config/sxhkd
+      path: config/sxhkd
     ~/.scripts:
     ~/.spacemacs:
 
 - paru:
-  - brave-bin
-  - maim
-  - jetbrains-toolbox
-  - sxhkd
-  - pyenv
-  - emacs
-  - wget
-  - zsh
-  - tmux
+    - brave-bin
+    - maim
+    - jetbrains-toolbox
+    - sxhkd
+    - pyenv
+    - emacs
+    - wget
+    - zsh
+    - tmux
 
 - git:
-    '~/.zinit/bin':
-        url: https://github.com/zdharma-continuum/zinit.git
+    "~/.zinit/bin":
+      url: https://github.com/zdharma-continuum/zinit.git
