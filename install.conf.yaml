@@ -13,7 +13,6 @@
       stderr: true
     - systemctl --user add-wants autostart.target autorandr
     - systemctl --user add-wants autostart.target sxhkd
-    - systemctl --user add-wants autostart.target slack
     - systemctl --user add-wants autostart.target brave
     - systemctl --user add-wants autostart.target numlockx
     - systemctl --user add-wants autostart.target polkit
