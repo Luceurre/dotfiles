@@ -51,6 +51,7 @@
     ~/.scripts:
     ~/.spacemacs:
     ~/.zsh:
+    ~/.tmux:
 
 - paru:
     - brave-bin
@@ -66,3 +67,5 @@
 - git:
     "~/.zinit/bin":
       url: https://github.com/zdharma-continuum/zinit.git
+    "~/.tmux/plugins/tpm":
+      url: https://github.com/tmux-plugins/tpm
