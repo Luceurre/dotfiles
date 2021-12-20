@@ -50,6 +50,7 @@
       path: config/sxhkd
     ~/.scripts:
     ~/.spacemacs:
+    ~/.zsh:
 
 - paru:
     - brave-bin
