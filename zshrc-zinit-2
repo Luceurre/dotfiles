@@ -1,0 +1,196 @@
+### Added by Zinit's installer
+if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
+    print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
+    command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
+    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
+        print -P "%F{33} %F{34}Installation successful.%f%b" || \
+        print -P "%F{160} The clone has failed.%f%b"
+fi
+
+source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zdharma-continuum/zinit-annex-as-monitor \
+    zdharma-continuum/zinit-annex-bin-gem-node \
+    zdharma-continuum/zinit-annex-patch-dl \
+    zdharma-continuum/zinit-annex-rust
+
+### End of Zinit's installer chunk
+#
+# Load starship theme
+zinit ice as"command" from"gh-r" atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" atpull"%atclone" src"init.zsh" 
+zinit light starship/starship
+
+zinit ice wait'0b' lucid atclone"dircolors -b LS_COLORS > clrs.zsh" \
+    atpull'%atclone' pick"clrs.zsh" nocompile'!' \
+    atload'zstyle ":completion:*" list-colors “${(s.:.)LS_COLORS}”'
+zinit light trapd00r/LS_COLORS
+
+##########################
+# OMZ Libs and Plugins   #
+##########################
+
+# IMPORTANT:
+# Ohmyzsh plugins and libs are loaded first as some these sets some defaults which are required later on.
+# Otherwise something will look messed up
+# ie. some settings help zsh-autosuggestions to clear after tab completion
+
+setopt promptsubst
+autoload -U colors && colors
+
+# Explanation:
+# - Loading tmux first, to prevent jumps when tmux is loaded after .zshrc
+# - History plugin is loaded early (as it has some defaults) to prevent empty history stack for other plugins
+zinit lucid for \
+    atinit"
+        export ZSH_TMUX_FIXTERM=false
+        export ZSH_TMUX_AUTOSTART=true
+        export ZSH_TMUX_AUTOCONNECT=true
+        export ZSH_TMUX_DEFAULT_SESSION_NAME='</>'
+    " \
+    OMZP::tmux \
+    atinit"HIST_STAMPS=dd.mm.yyyy" \
+    OMZL::history.zsh \
+
+zinit wait lucid for \
+	OMZL::clipboard.zsh \
+	OMZL::compfix.zsh \
+	OMZL::completion.zsh \
+	OMZL::correction.zsh \
+    atload'
+        alias ..="cd .."
+        alias ...="cd ../.."
+        alias ....="cd ../../.."
+        alias .....="cd ../../../.."
+        function take() {
+            mkdir -p $@ && cd ${@:$#}
+        }
+        alias rm="rm -rf"
+    ' \
+	OMZL::directories.zsh \
+	OMZL::git.zsh \
+	OMZL::grep.zsh \
+	OMZL::key-bindings.zsh \
+	OMZL::spectrum.zsh \
+	OMZL::termsupport.zsh \
+    atload"
+        alias gcd='git checkout dev'
+        alias gce='git commit -a -e'
+    " \
+	OMZP::git \
+	OMZP::docker-compose \
+	as"completion" OMZP::docker/_docker \
+    djui/alias-tips \
+    https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh \
+    https://github.com/junegunn/fzf/blob/master/shell/completion.zsh \
+
+# Git Enhanced
+zinit as"null" wait"1" lucid for \
+  sbin    Fakerr/git-recall \
+  sbin    cloneopts paulirish/git-open \
+  sbin    paulirish/git-recent \
+  sbin    davidosomething/git-my \
+  sbin atload"export _MENU_THEME=legacy" \
+  arzzen/git-quick-stats \
+  sbin    iwata/git-now \
+  make"PREFIX=$ZPFX install" \
+  tj/git-extras \
+  sbin"git-url;git-guclone" make"GITURL_NO_CGITURL=1" \
+  zdharma-continuum/git-url
+
+#####################
+# PLUGINS           #
+#####################
+# @source: https://github.com/crivotz/dot_files/blob/master/linux/zplugin/zshrc
+
+# IMPORTANT:
+# These plugins should be loaded after ohmyzsh plugins
+
+zinit wait lucid for \
+    light-mode blockf atpull'zinit creinstall -q .' \
+    atinit"
+        zstyle ':completion:*' completer _expand _complete _ignored _approximate
+        zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+        zstyle ':completion:*' menu select=2
+        zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %p%s'
+        zstyle ':completion:*:processes' command 'ps -au$USER'
+        zstyle ':completion:complete:*:options' sort false
+        zstyle ':fzf-tab:complete:_zlua:*' query-string input
+        zstyle ':completion:*:*:*:*:processes' command 'ps -u $USER -o pid,user,comm,cmd -w -w'
+        zstyle ':fzf-tab:complete:kill:argument-rest' extra-opts --preview=$extract'ps --pid=$in[(w)1] -o cmd --no-headers -w -w' --preview-window=down:3:wrap
+        zstyle ':fzf-tab:complete:cd:*' extra-opts --preview=$extract'exa -1 --color=always ${~ctxt[hpre]}$in'
+        zstyle ':completion:*:matches' group 'yes'
+        zstyle ':completion:*:options' description 'yes'
+        zstyle ':completion:*:options' auto-description '%d'
+        zstyle ':completion:*:corrections' format ' %F{green}-- %d (errors: %e) --%f'
+        zstyle ':completion:*:descriptions' format ' %F{yellow}-- %d --%f'
+        zstyle ':completion:*:messages' format ' %F{purple} -- %d --%f'
+        zstyle ':completion:*:warnings' format ' %F{red}-- no matches found --%f'
+        zstyle ':completion:*:default' list-prompt '%S%M matches%s'
+        zstyle ':completion:*' format ' %F{yellow}-- %d --%f'
+        zstyle ':completion:*' group-name ''
+        zstyle ':completion:*' verbose yes
+        zstyle ':completion::complete:*' use-cache on
+        zstyle ':completion::complete:*' cache-path "$HOME/.zcompcache"
+        zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
+        zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+        zstyle ':completion:*:functions' ignored-patterns '(_*|pre(cmd|exec))'
+        zstyle ':completion:*' rehash true
+    " \
+        zsh-users/zsh-completions \
+    light-mode atinit"ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20" atload"_zsh_autosuggest_start" \
+        zsh-users/zsh-autosuggestions \
+    light-mode atinit"
+        typeset -gA FAST_HIGHLIGHT;
+        FAST_HIGHLIGHT[git-cmsg-len]=100;
+        zpcompinit;
+        zpcdreplay;
+    " \
+        zdharma-continuum/fast-syntax-highlighting \
+    bindmap"^R -> ^H" atinit"
+        zstyle :history-search-multi-word page-size 10
+        zstyle :history-search-multi-word highlight-color fg=red,bold
+        zstyle :plugin:history-search-multi-word reset-prompt-protect 1
+    " \
+        zdharma-continuum/history-search-multi-word \
+
+#######################################
+# FZF deserves its own config         #
+# Don't move it to zsh_config.zsh     #
+#######################################
+
+# Configure fzf, command line fuzzyf finder
+# Ignoring files will be handled by ~/.fdignore
+FD_OPTIONS="--hidden --follow"
+# FD_OPTIONS="--hidden --follow --exclude .git --exclude node_modules --exclude .npm"
+
+# export FZF_DEFAULT_OPTS="--no-mouse --height 50% -1 --reverse --multi --inline-info --preview='[[ \$(file --mime {}) =~ binary ]] && echo {} is a binary file || (bat --style=numbers --color=always {} || cat {}) 2> /dev/null | head -300' --preview-window='right:hidden:wrap' --bind='f3:execute(bat --style=numbers {} || less -f {}),f2:toggle-preview,ctrl-d:half-page-down,ctrl-u:half-page-up,ctrl-a:select-all+accept,ctrl-y:execute-silent(echo {+} | pbcopy),ctrl-x:execute(rm -i {+})+abort'"
+export FZF_DEFAULT_OPTS="--prompt '⯈ ' --marker=+ --keep-right --color=dark --layout=reverse --color=fg:250,fg+:15,hl:203,hl+:203 --color=info:100,pointer:15,marker:220,spinner:11,header:-1,gutter:-1,prompt:15"
+
+# Use git-ls-files inside git repo, otherwise fd
+export FZF_DEFAULT_COMMAND="fd --type f --type l $FD_OPTIONS || git ls-files --cached --others --exclude-standard"
+
+export FZF_CTRL_T_COMMAND="fd --strip-cwd-prefix $FD_OPTIONS"
+export FZF_ALT_C_COMMAND="fd --type d $FD_OPTIONS"
+
+# Options to fzf command
+export FZF_COMPLETION_OPTS="-x"
+
+_fzf_compgen_path() {
+    fd --hidden --follow . "$1"
+}
+
+# Use fd to generate the list for directory completion
+_fzf_compgen_dir() {
+    fd --type d --hidden --follow . "$1"
+}
+
+setopt autocd autopushd pushdignoredups
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
