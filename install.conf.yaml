@@ -41,6 +41,8 @@
       path: config/polybar
     ~/.config/rofi:
       path: config/rofi
+    ~/.config/tmux:
+      path: config/tmux
     ~/.config/nvim:
       path: config/nvim
     ~/.zprofile:
@@ -51,7 +53,6 @@
     ~/.scripts:
     ~/.spacemacs:
     ~/.zsh:
-    ~/.tmux:
 
 - paru:
     - brave-bin
@@ -67,5 +68,5 @@
 - git:
     "~/.zinit/bin":
       url: https://github.com/zdharma-continuum/zinit.git
-    "~/.tmux/plugins/tpm":
+    "~/.config/tmux/plugins/tpm":
       url: https://github.com/tmux-plugins/tpm
