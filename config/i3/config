@@ -1,4 +1,4 @@
-################# Start of all the settings
+################ Start of all the settings
 
 # KEY DEFINITIONS TO REMEMBER
 # $mod = Set below
@@ -24,9 +24,9 @@ set $mod Mod4
 # This is setup for qwerty
 # set $right to m if using azerty keyboard
 set $up k
-set $down j
+set $down n
 set $left h
-set $right l
+set $right i
 
 # Default programs
 set $term alacritty

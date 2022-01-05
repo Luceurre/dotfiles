@@ -1,3 +1,5 @@
+export TERM="xterm-256color"
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
@@ -42,7 +44,7 @@ setopt promptsubst
 zinit lucid for \
     atinit"
         export ZSH_TMUX_FIXTERM=false
-        export ZSH_TMUX_AUTOSTART=true
+        export ZSH_TMUX_AUTOSTART=false
         export ZSH_TMUX_AUTOCONNECT=false
     " \
     OMZP::tmux \
@@ -150,6 +152,7 @@ zinit wait lucid for \
         zstyle :plugin:history-search-multi-word reset-prompt-protect 1
     " \
         zdharma-continuum/history-search-multi-word \
+        agkozak/zsh-z \
 
 #######################################
 # FZF deserves its own config         #
