@@ -23,10 +23,10 @@ set $mod Mod4
 
 # This is setup for qwerty
 # set $right to m if using azerty keyboard
-set $up k
-set $down n
-set $left h
-set $right i
+set $up e
+set $down i
+set $left n
+set $right o
 
 # Default programs
 set $term alacritty

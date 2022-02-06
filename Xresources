@@ -224,4 +224,4 @@ UXTerm*boldMode: false
 UXTerm*colorBDMode: true
 UXTerm*colorBD: rgb:ff/ff/ff
 
-Xft.dpi: 192
+Xft.dpi: 128
