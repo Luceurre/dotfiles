@@ -50,6 +50,8 @@
       path: config/systemd
     ~/.config/sxhkd:
       path: config/sxhkd
+    ~/.config/alacritty:
+      path: config/alacritty
     ~/.scripts:
     ~/.spacemacs:
     ~/.zsh:
