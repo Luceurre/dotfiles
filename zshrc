@@ -187,6 +187,6 @@ _fzf_compgen_dir() {
 
 setopt autocd autopushd pushdignoredups
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
+source $HOME/.zprofile
+
 eval "$(pyenv init --path)"
